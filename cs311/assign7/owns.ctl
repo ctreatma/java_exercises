@@ -1,0 +1,15 @@
+LOAD DATA
+INFILE *
+INTO TABLE Owns
+FIELDS TERMINATED BY '|'
+(ssn, street)
+BEGINDATA
+052481171|261 N Main Street
+052481171|119 N Pleasant Street
+091222145|64 N Park Street
+052213121|25 N Park Street
+052213121|88 Groveland Street
+119848123|27 Union Street
+119848123|216 N Main Street
+119848123|37 Locust Street
+119848123|22 South Street

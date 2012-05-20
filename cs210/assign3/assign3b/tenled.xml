@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuit [
+<!ELEMENT circuit
+        (circuit*,
+	(and|andthree|or|orthree|xor|neg|nand|nor|switch|bulb|label|zero|one|jk|led|clock|nib|wire|abscircuit)*)>
+<!ATTLIST circuit
+        name CDATA #REQUIRED>
+<!ELEMENT and (coords?, parent-of*)>
+<!ATTLIST and
+        id CDATA #REQUIRED>
+<!ELEMENT andthree (coords?, parent-of*)>
+<!ATTLIST andthree
+        id CDATA #REQUIRED>
+<!ELEMENT or (coords?, parent-of*)>
+<!ATTLIST or
+        id CDATA #REQUIRED>
+<!ELEMENT orthree (coords?, parent-of*)>
+<!ATTLIST orthree
+        id CDATA #REQUIRED>
+<!ELEMENT xor (coords?, parent-of*)>
+<!ATTLIST xor
+        id CDATA #REQUIRED>
+<!ELEMENT neg (coords?, parent-of*)>
+<!ATTLIST neg
+        id CDATA #REQUIRED>
+<!ELEMENT nand (coords?, parent-of*)>
+<!ATTLIST nand
+        id CDATA #REQUIRED>
+<!ELEMENT nor (coords?, parent-of*)>
+<!ATTLIST nor
+        id CDATA #REQUIRED>
+<!ELEMENT jk (coords?, parent-of*)>
+<!ATTLIST jk
+        id CDATA #REQUIRED>
+<!ELEMENT led (coords?, parent-of*)>
+<!ATTLIST led
+        id CDATA #REQUIRED>
+<!ELEMENT zero (coords?, parent-of*)>
+<!ATTLIST zero
+        id CDATA #REQUIRED>
+<!ELEMENT one (coords?, parent-of*)>
+<!ATTLIST one
+        id CDATA #REQUIRED>
+<!ELEMENT switch (coords?, parent-of*)>
+<!ATTLIST switch
+        id CDATA #REQUIRED
+        number CDATA #REQUIRED
+	label CDATA #IMPLIED>
+<!ELEMENT bulb (coords?, parent-of*)>
+<!ATTLIST bulb
+        id CDATA #REQUIRED
+        number CDATA #REQUIRED
+	label CDATA #IMPLIED>
+<!ELEMENT label (coords?, parent-of*, text)>
+<!ATTLIST label
+        id CDATA #REQUIRED
+	size CDATA #REQUIRED
+	style CDATA #REQUIRED
+	color CDATA #REQUIRED>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT clock (coords?, parent-of*)>
+<!ATTLIST clock
+        id CDATA #REQUIRED
+	speed CDATA #REQUIRED>
+<!ELEMENT nib (coords?, parent-of*)>
+<!ATTLIST nib
+        id CDATA #REQUIRED>
+<!ELEMENT wire (coords?, parent-of*)>
+<!ATTLIST wire
+        id CDATA #REQUIRED
+	direction CDATA #REQUIRED>
+<!ELEMENT abscircuit (coords?, parent-of*)>
+<!ATTLIST abscircuit
+        id CDATA #REQUIRED
+	base CDATA #REQUIRED>
+<!ELEMENT coords EMPTY>
+<!ATTLIST coords
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED>
+<!ELEMENT parent-of (#PCDATA)>
+<!ATTLIST parent-of
+        pindex CDATA #REQUIRED
+        cindex CDATA #REQUIRED>]>
+<circuit name="tenled">
+   <circuit name="leddriver">
+      <switch id="leddriver:Switch0" number="0" label="i0">
+         <coords x="31" y="22"/>
+         <parent-of pindex="0" cindex="0">leddriver:Wire8</parent-of>
+      </switch>
+      <switch id="leddriver:Switch1" number="1" label="i1">
+         <coords x="33" y="165"/>
+         <parent-of pindex="0" cindex="0">leddriver:Wire11</parent-of>
+      </switch>
+      <switch id="leddriver:Switch2" number="2" label="i2">
+         <coords x="29" y="315"/>
+         <parent-of pindex="0" cindex="0">leddriver:Wire6</parent-of>
+      </switch>
+      <switch id="leddriver:Switch3" number="3" label="i3">
+         <coords x="28" y="528"/>
+         <parent-of pindex="0" cindex="0">leddriver:Wire12</parent-of>
+      </switch>
+      <bulb id="leddriver:Bulb4" number="4" label="A">
+         <coords x="642" y="37"/>
+      </bulb>
+      <wire id="leddriver:Wire6" direction="right">
+         <coords x="84" y="330"/>
+         <parent-of pindex="1" cindex="0">leddriver:Not20</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire23</parent-of>
+      </wire>
+      <wire id="leddriver:Wire8" direction="right">
+         <coords x="80" y="35"/>
+         <parent-of pindex="1" cindex="0">leddriver:Not18</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire21</parent-of>
+      </wire>
+      <bulb id="leddriver:Bulb5" number="5" label="B">
+         <coords x="644" y="85"/>
+      </bulb>
+      <neg id="leddriver:Not18">
+         <coords x="95" y="70"/>
+         <parent-of pindex="1" cindex="0">leddriver:Wire13</parent-of>
+      </neg>
+      <wire id="leddriver:Wire11" direction="right">
+         <coords x="79" y="180"/>
+         <parent-of pindex="1" cindex="0">leddriver:Not19</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire24</parent-of>
+      </wire>
+      <neg id="leddriver:Not19">
+         <coords x="94" y="235"/>
+         <parent-of pindex="1" cindex="0">leddriver:Wire14</parent-of>
+      </neg>
+      <neg id="leddriver:Not20">
+         <coords x="99" y="360"/>
+         <parent-of pindex="1" cindex="0">leddriver:Wire15</parent-of>
+      </neg>
+      <neg id="leddriver:Not21">
+         <coords x="102" y="573"/>
+         <parent-of pindex="1" cindex="0">leddriver:Wire16</parent-of>
+      </neg>
+      <wire id="leddriver:Wire12" direction="right">
+         <coords x="87" y="543"/>
+         <parent-of pindex="1" cindex="0">leddriver:Not21</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire22</parent-of>
+      </wire>
+      <wire id="leddriver:Wire13" direction="right">
+         <coords x="145" y="85"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire17</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree12</parent-of>
+      </wire>
+      <wire id="leddriver:Wire14" direction="right">
+         <coords x="144" y="250"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire18</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree11</parent-of>
+      </wire>
+      <wire id="leddriver:Wire15" direction="right">
+         <coords x="134" y="375"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire19</parent-of>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree12</parent-of>
+      </wire>
+      <wire id="leddriver:Wire16" direction="right">
+         <coords x="147" y="588"/>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree11</parent-of>
+         <parent-of pindex="2" cindex="2">leddriver:Andthree21</parent-of>
+      </wire>
+      <wire id="leddriver:Wire17" direction="right">
+         <coords x="184" y="85"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire32</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree18</parent-of>
+      </wire>
+      <wire id="leddriver:Wire18" direction="right">
+         <coords x="179" y="250"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire30</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree19</parent-of>
+      </wire>
+      <wire id="leddriver:Wire19" direction="right">
+         <coords x="187" y="375"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire36</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree11</parent-of>
+      </wire>
+      <wire id="leddriver:Wire21" direction="right">
+         <coords x="105" y="35"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire26</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:And18</parent-of>
+      </wire>
+      <wire id="leddriver:Wire22" direction="right">
+         <coords x="132" y="543"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire28</parent-of>
+      </wire>
+      <wire id="leddriver:Wire23" direction="right">
+         <coords x="134" y="330"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire27</parent-of>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree13</parent-of>
+      </wire>
+      <wire id="leddriver:Wire24" direction="right">
+         <coords x="141" y="180"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire29</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree12</parent-of>
+      </wire>
+      <xor id="leddriver:Xor6">
+         <coords x="380" y="27"/>
+         <parent-of pindex="2" cindex="0">leddriver:Not22</parent-of>
+      </xor>
+      <neg id="leddriver:Not22">
+         <coords x="442" y="27"/>
+         <parent-of pindex="1" cindex="0">leddriver:Orthree7</parent-of>
+      </neg>
+      <orthree id="leddriver:Orthree7">
+         <coords x="507" y="37"/>
+         <parent-of pindex="3" cindex="0">leddriver:Bulb4</parent-of>
+      </orthree>
+      <wire id="leddriver:Wire26" direction="right">
+         <coords x="133" y="35"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire60</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree10</parent-of>
+      </wire>
+      <wire id="leddriver:Wire27" direction="right">
+         <coords x="168" y="330"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire33</parent-of>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree19</parent-of>
+      </wire>
+      <wire id="leddriver:Wire28" direction="right">
+         <coords x="160" y="543"/>
+         <parent-of pindex="2" cindex="2">leddriver:Orthree7</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:And25</parent-of>
+      </wire>
+      <wire id="leddriver:Wire29" direction="right">
+         <coords x="178" y="180"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire58</parent-of>
+      </wire>
+      <wire id="leddriver:Wire30" direction="right">
+         <coords x="220" y="250"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire34</parent-of>
+      </wire>
+      <wire id="leddriver:Wire32" direction="right">
+         <coords x="224" y="85"/>
+         <parent-of pindex="1" cindex="0">leddriver:And25</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire85</parent-of>
+      </wire>
+      <wire id="leddriver:Wire33" direction="right">
+         <coords x="198" y="330"/>
+         <parent-of pindex="1" cindex="1">leddriver:Xor6</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire74</parent-of>
+      </wire>
+      <wire id="leddriver:Wire34" direction="right">
+         <coords x="287" y="250"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire37</parent-of>
+      </wire>
+      <wire id="leddriver:Wire36" direction="right">
+         <coords x="231" y="375"/>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree10</parent-of>
+         <parent-of pindex="2" cindex="1">leddriver:Andthree21</parent-of>
+      </wire>
+      <wire id="leddriver:Wire37" direction="right">
+         <coords x="343" y="250"/>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree21</parent-of>
+         <parent-of pindex="2" cindex="1">leddriver:Andthree23</parent-of>
+      </wire>
+      <bulb id="leddriver:Bulb6" number="6" label="C">
+         <coords x="645" y="153"/>
+      </bulb>
+      <bulb id="leddriver:Bulb7" number="7" label="D">
+         <coords x="651" y="237"/>
+      </bulb>
+      <bulb id="leddriver:Bulb8" number="8" label="E">
+         <coords x="649" y="308"/>
+      </bulb>
+      <bulb id="leddriver:Bulb9" number="9" label="F">
+         <coords x="644" y="388"/>
+      </bulb>
+      <bulb id="leddriver:Bulb10" number="10" label="G">
+         <coords x="647" y="480"/>
+      </bulb>
+      <neg id="leddriver:Not23">
+         <coords x="590" y="388"/>
+         <parent-of pindex="1" cindex="0">leddriver:Bulb9</parent-of>
+      </neg>
+      <andthree id="leddriver:Andthree10">
+         <coords x="278" y="281"/>
+         <parent-of pindex="3" cindex="0">leddriver:Orthree11</parent-of>
+      </andthree>
+      <andthree id="leddriver:Andthree11">
+         <coords x="270" y="503"/>
+         <parent-of pindex="3" cindex="1">leddriver:And18</parent-of>
+      </andthree>
+      <and id="leddriver:And18">
+         <coords x="304" y="477"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire83</parent-of>
+      </and>
+      <andthree id="leddriver:Andthree12">
+         <coords x="298" y="406"/>
+         <parent-of pindex="3" cindex="0">leddriver:Wire84</parent-of>
+      </andthree>
+      <andthree id="leddriver:Andthree13">
+         <coords x="336" y="215"/>
+         <parent-of pindex="3" cindex="0">leddriver:Wire82</parent-of>
+      </andthree>
+      <orthree id="leddriver:Orthree11">
+         <coords x="377" y="358"/>
+         <parent-of pindex="3" cindex="1">leddriver:Or9</parent-of>
+      </orthree>
+      <or id="leddriver:Or9">
+         <coords x="414" y="184"/>
+         <parent-of pindex="2" cindex="0">leddriver:Not28</parent-of>
+      </or>
+      <neg id="leddriver:Not28">
+         <coords x="448" y="85"/>
+         <parent-of pindex="1" cindex="0">leddriver:Bulb5</parent-of>
+      </neg>
+      <wire id="leddriver:Wire58" direction="right">
+         <coords x="224" y="180"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire59</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree10</parent-of>
+      </wire>
+      <wire id="leddriver:Wire59" direction="right">
+         <coords x="265" y="180"/>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree13</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire76</parent-of>
+      </wire>
+      <wire id="leddriver:Wire60" direction="right">
+         <coords x="153" y="35"/>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree13</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire73</parent-of>
+      </wire>
+      <andthree id="leddriver:Andthree18">
+         <coords x="426" y="219"/>
+         <parent-of pindex="3" cindex="0">leddriver:Wire88</parent-of>
+      </andthree>
+      <andthree id="leddriver:Andthree19">
+         <coords x="438" y="126"/>
+         <parent-of pindex="3" cindex="0">leddriver:Or11</parent-of>
+      </andthree>
+      <neg id="leddriver:Not33">
+         <coords x="533" y="153"/>
+         <parent-of pindex="1" cindex="0">leddriver:Bulb6</parent-of>
+      </neg>
+      <or id="leddriver:Or11">
+         <coords x="477" y="153"/>
+         <parent-of pindex="2" cindex="0">leddriver:Not33</parent-of>
+      </or>
+      <wire id="leddriver:Wire73" direction="right">
+         <coords x="195" y="35"/>
+         <parent-of pindex="1" cindex="0">leddriver:Andthree19</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire77</parent-of>
+      </wire>
+      <wire id="leddriver:Wire74" direction="right">
+         <coords x="251" y="330"/>
+         <parent-of pindex="1" cindex="2">leddriver:Andthree18</parent-of>
+         <parent-of pindex="2" cindex="2">leddriver:Andthree23</parent-of>
+      </wire>
+      <wire id="leddriver:Wire76" direction="right">
+         <coords x="322" y="180"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire81</parent-of>
+      </wire>
+      <neg id="leddriver:Not34">
+         <coords x="517" y="237"/>
+         <parent-of pindex="1" cindex="0">leddriver:Bulb7</parent-of>
+      </neg>
+      <wire id="leddriver:Wire77" direction="right">
+         <coords x="256" y="35"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire78</parent-of>
+      </wire>
+      <wire id="leddriver:Wire78" direction="right">
+         <coords x="297" y="35"/>
+         <parent-of pindex="2" cindex="0">leddriver:Xor6</parent-of>
+      </wire>
+      <andthree id="leddriver:Andthree21">
+         <coords x="383" y="517"/>
+         <parent-of pindex="3" cindex="1">leddriver:And23</parent-of>
+      </andthree>
+      <and id="leddriver:And23">
+         <coords x="417" y="493"/>
+         <parent-of pindex="2" cindex="0">leddriver:Wire86</parent-of>
+      </and>
+      <orthree id="leddriver:Orthree13">
+         <coords x="482" y="330"/>
+         <parent-of pindex="3" cindex="0">leddriver:Not34</parent-of>
+      </orthree>
+      <label id="leddriver:Label1" size="12" style="0" color="0">
+         <coords x="419" y="530"/>
+         <text>0</text>
+      </label>
+      <label id="leddriver:Label2" size="12" style="0" color="0">
+         <coords x="282" y="486"/>
+         <text>1</text>
+      </label>
+      <label id="leddriver:Label3" size="12" style="0" color="0">
+         <coords x="321" y="426"/>
+         <text>2</text>
+      </label>
+      <label id="leddriver:Label4" size="12" style="0" color="0">
+         <coords x="304" y="297"/>
+         <text>3</text>
+      </label>
+      <label id="leddriver:Label5" size="12" style="0" color="0">
+         <coords x="432" y="309"/>
+         <text>4</text>
+      </label>
+      <label id="leddriver:Label6" size="12" style="0" color="0">
+         <coords x="451" y="243"/>
+         <text>6</text>
+      </label>
+      <label id="leddriver:Label7" size="12" style="0" color="0">
+         <coords x="359" y="231"/>
+         <text>7</text>
+      </label>
+      <label id="leddriver:Label8" size="12" style="0" color="0">
+         <coords x="257" y="161"/>
+         <text>8</text>
+      </label>
+      <label id="leddriver:Label9" size="12" style="0" color="0">
+         <coords x="475" y="119"/>
+         <text>5</text>
+      </label>
+      <wire id="leddriver:Wire81" direction="right">
+         <coords x="366" y="180"/>
+         <parent-of pindex="2" cindex="1">leddriver:Orthree7</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Andthree18</parent-of>
+      </wire>
+      <wire id="leddriver:Wire82" direction="right">
+         <coords x="370" y="230"/>
+         <parent-of pindex="1" cindex="0">leddriver:Or9</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire90</parent-of>
+      </wire>
+      <wire id="leddriver:Wire83" direction="right">
+         <coords x="338" y="492"/>
+         <parent-of pindex="1" cindex="2">leddriver:Orthree11</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire89</parent-of>
+      </wire>
+      <wire id="leddriver:Wire84" direction="right">
+         <coords x="331" y="421"/>
+         <parent-of pindex="1" cindex="1">leddriver:Orthree11</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Wire87</parent-of>
+      </wire>
+      <and id="leddriver:And25">
+         <coords x="234" y="141"/>
+         <parent-of pindex="2" cindex="0">leddriver:Or12</parent-of>
+      </and>
+      <andthree id="leddriver:Andthree23">
+         <coords x="407" y="288"/>
+         <parent-of pindex="3" cindex="1">leddriver:Orthree15</parent-of>
+      </andthree>
+      <wire id="leddriver:Wire85" direction="right">
+         <coords x="247" y="85"/>
+         <parent-of pindex="1" cindex="0">leddriver:And23</parent-of>
+         <parent-of pindex="2" cindex="0">leddriver:Andthree23</parent-of>
+      </wire>
+      <orthree id="leddriver:Orthree14">
+         <coords x="544" y="344"/>
+         <parent-of pindex="3" cindex="1">leddriver:Or12</parent-of>
+      </orthree>
+      <or id="leddriver:Or12">
+         <coords x="585" y="308"/>
+         <parent-of pindex="2" cindex="0">leddriver:Bulb8</parent-of>
+      </or>
+      <wire id="leddriver:Wire86" direction="right">
+         <coords x="451" y="508"/>
+         <parent-of pindex="1" cindex="2">leddriver:Orthree13</parent-of>
+         <parent-of pindex="2" cindex="2">leddriver:Orthree14</parent-of>
+      </wire>
+      <wire id="leddriver:Wire87" direction="right">
+         <coords x="390" y="421"/>
+         <parent-of pindex="2" cindex="0">leddriver:Not23</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Orthree14</parent-of>
+      </wire>
+      <wire id="leddriver:Wire88" direction="right">
+         <coords x="461" y="234"/>
+         <parent-of pindex="2" cindex="0">leddriver:Orthree14</parent-of>
+         <parent-of pindex="1" cindex="1">leddriver:Or11</parent-of>
+      </wire>
+      <neg id="leddriver:Not35">
+         <coords x="593" y="481"/>
+         <parent-of pindex="1" cindex="0">leddriver:Bulb10</parent-of>
+      </neg>
+      <orthree id="leddriver:Orthree15">
+         <coords x="545" y="481"/>
+         <parent-of pindex="3" cindex="0">leddriver:Not35</parent-of>
+      </orthree>
+      <wire id="leddriver:Wire89" direction="right">
+         <coords x="375" y="492"/>
+         <parent-of pindex="1" cindex="1">leddriver:Orthree13</parent-of>
+         <parent-of pindex="2" cindex="2">leddriver:Orthree15</parent-of>
+      </wire>
+      <wire id="leddriver:Wire90" direction="right">
+         <coords x="434" y="284"/>
+         <parent-of pindex="2" cindex="0">leddriver:Orthree13</parent-of>
+         <parent-of pindex="1" cindex="0">leddriver:Orthree15</parent-of>
+      </wire>
+   </circuit>
+   <circuit name="tenctr">
+      <jk id="tenctr:JK1">
+         <coords x="411" y="16"/>
+         <parent-of pindex="4" cindex="0">tenctr:Wire5</parent-of>
+      </jk>
+      <jk id="tenctr:JK2">
+         <coords x="572" y="108"/>
+         <parent-of pindex="4" cindex="0">tenctr:Wire12</parent-of>
+      </jk>
+      <jk id="tenctr:JK3">
+         <coords x="762" y="198"/>
+         <parent-of pindex="4" cindex="0">tenctr:Wire14</parent-of>
+      </jk>
+      <jk id="tenctr:JK4">
+         <coords x="920" y="288"/>
+         <parent-of pindex="4" cindex="0">tenctr:Wire11</parent-of>
+      </jk>
+      <wire id="tenctr:Wire1" direction="right">
+         <coords x="347" y="331"/>
+         <parent-of pindex="2" cindex="2">tenctr:JK4</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire2</parent-of>
+      </wire>
+      <wire id="tenctr:Wire2" direction="right">
+         <coords x="362" y="241"/>
+         <parent-of pindex="2" cindex="2">tenctr:JK3</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire3</parent-of>
+      </wire>
+      <wire id="tenctr:Wire3" direction="right">
+         <coords x="377" y="151"/>
+         <parent-of pindex="2" cindex="2">tenctr:JK2</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire4</parent-of>
+      </wire>
+      <wire id="tenctr:Wire4" direction="right">
+         <coords x="392" y="59"/>
+         <parent-of pindex="2" cindex="2">tenctr:JK1</parent-of>
+      </wire>
+      <bulb id="tenctr:Bulb2" number="2" label="a0">
+         <coords x="987" y="23"/>
+      </bulb>
+      <bulb id="tenctr:Bulb3" number="3" label="a1">
+         <coords x="1136" y="116"/>
+      </bulb>
+      <bulb id="tenctr:Bulb4" number="4" label="a2">
+         <coords x="1113" y="205"/>
+      </bulb>
+      <bulb id="tenctr:Bulb5" number="5" label="a3">
+         <coords x="1124" y="303"/>
+      </bulb>
+      <wire id="tenctr:Wire5" direction="right">
+         <coords x="515" y="37"/>
+         <parent-of pindex="1" cindex="1">tenctr:JK1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire7</parent-of>
+      </wire>
+      <wire id="tenctr:Wire7" direction="right">
+         <coords x="518" y="37"/>
+         <parent-of pindex="1" cindex="1">tenctr:JK2</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire8</parent-of>
+      </wire>
+      <wire id="tenctr:Wire8" direction="right">
+         <coords x="564" y="37"/>
+         <parent-of pindex="1" cindex="1">tenctr:JK4</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire9</parent-of>
+      </wire>
+      <wire id="tenctr:Wire9" direction="right">
+         <coords x="602" y="37"/>
+         <parent-of pindex="1" cindex="0">tenctr:Not1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire10</parent-of>
+      </wire>
+      <neg id="tenctr:Not1">
+         <coords x="486" y="74"/>
+         <parent-of pindex="1" cindex="0">tenctr:JK1</parent-of>
+      </neg>
+      <wire id="tenctr:Wire10" direction="right">
+         <coords x="649" y="38"/>
+         <parent-of pindex="1" cindex="0">tenctr:And1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire13</parent-of>
+      </wire>
+      <and id="tenctr:And1">
+         <coords x="699" y="81"/>
+         <parent-of pindex="2" cindex="0">tenctr:JK2</parent-of>
+      </and>
+      <wire id="tenctr:Wire11" direction="right">
+         <coords x="1007" y="309"/>
+         <parent-of pindex="1" cindex="0">tenctr:Not2</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Bulb5</parent-of>
+      </wire>
+      <neg id="tenctr:Not2">
+         <coords x="1021" y="250"/>
+         <parent-of pindex="1" cindex="1">tenctr:And1</parent-of>
+      </neg>
+      <wire id="tenctr:Wire12" direction="right">
+         <coords x="722" y="135"/>
+         <parent-of pindex="1" cindex="1">tenctr:And2</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire15</parent-of>
+      </wire>
+      <wire id="tenctr:Wire13" direction="right">
+         <coords x="730" y="38"/>
+         <parent-of pindex="1" cindex="0">tenctr:And2</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Wire16</parent-of>
+      </wire>
+      <and id="tenctr:And2">
+         <coords x="788" y="65"/>
+         <parent-of pindex="2" cindex="0">tenctr:JK3</parent-of>
+      </and>
+      <andthree id="tenctr:Andthree1">
+         <coords x="896" y="153"/>
+         <parent-of pindex="3" cindex="0">tenctr:Wire17</parent-of>
+      </andthree>
+      <wire id="tenctr:Wire14" direction="right">
+         <coords x="865" y="220"/>
+         <parent-of pindex="1" cindex="2">tenctr:Andthree1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Bulb4</parent-of>
+      </wire>
+      <wire id="tenctr:Wire15" direction="right">
+         <coords x="845" y="131"/>
+         <parent-of pindex="1" cindex="1">tenctr:Andthree1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Bulb3</parent-of>
+      </wire>
+      <wire id="tenctr:Wire16" direction="right">
+         <coords x="856" y="38"/>
+         <parent-of pindex="1" cindex="0">tenctr:Andthree1</parent-of>
+         <parent-of pindex="2" cindex="0">tenctr:Bulb2</parent-of>
+      </wire>
+      <wire id="tenctr:Wire17" direction="right">
+         <coords x="935" y="171"/>
+         <parent-of pindex="2" cindex="0">tenctr:JK4</parent-of>
+         <parent-of pindex="1" cindex="1">tenctr:JK3</parent-of>
+      </wire>
+      <switch id="tenctr:Switch0" number="0" label="Cl">
+         <coords x="388" y="420"/>
+         <parent-of pindex="0" cindex="0">tenctr:Wire18</parent-of>
+      </switch>
+      <wire id="tenctr:Wire18" direction="right">
+         <coords x="433" y="347"/>
+         <parent-of pindex="2" cindex="3">tenctr:JK4</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire19</parent-of>
+      </wire>
+      <wire id="tenctr:Wire19" direction="right">
+         <coords x="448" y="257"/>
+         <parent-of pindex="2" cindex="3">tenctr:JK3</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire20</parent-of>
+      </wire>
+      <wire id="tenctr:Wire20" direction="right">
+         <coords x="463" y="167"/>
+         <parent-of pindex="2" cindex="3">tenctr:JK2</parent-of>
+         <parent-of pindex="1" cindex="0">tenctr:Wire21</parent-of>
+      </wire>
+      <wire id="tenctr:Wire21" direction="right">
+         <coords x="366" y="75"/>
+         <parent-of pindex="2" cindex="3">tenctr:JK1</parent-of>
+      </wire>
+      <switch id="tenctr:Switch1" number="1" label="&gt;">
+         <coords x="251" y="316"/>
+         <parent-of pindex="0" cindex="0">tenctr:Wire1</parent-of>
+      </switch>
+   </circuit>
+   <abscircuit id="tenled:leddriver1" base="leddriver">
+      <coords x="372" y="145"/>
+      <parent-of pindex="4" cindex="0">tenled:Led1</parent-of>
+      <parent-of pindex="5" cindex="1">tenled:Led1</parent-of>
+      <parent-of pindex="6" cindex="2">tenled:Led1</parent-of>
+      <parent-of pindex="7" cindex="3">tenled:Led1</parent-of>
+      <parent-of pindex="8" cindex="4">tenled:Led1</parent-of>
+      <parent-of pindex="9" cindex="5">tenled:Led1</parent-of>
+      <parent-of pindex="10" cindex="6">tenled:Led1</parent-of>
+   </abscircuit>
+   <abscircuit id="tenled:tenctr2" base="tenctr">
+      <coords x="189" y="145"/>
+      <parent-of pindex="2" cindex="0">tenled:leddriver1</parent-of>
+      <parent-of pindex="3" cindex="1">tenled:leddriver1</parent-of>
+      <parent-of pindex="4" cindex="2">tenled:leddriver1</parent-of>
+      <parent-of pindex="5" cindex="3">tenled:leddriver1</parent-of>
+   </abscircuit>
+   <switch id="tenled:Switch0" number="0" label="Cl">
+      <coords x="144" y="70"/>
+      <parent-of pindex="0" cindex="0">tenled:tenctr2</parent-of>
+   </switch>
+   <clock id="tenled:Clock1" speed="1000">
+      <coords x="129" y="220"/>
+      <parent-of pindex="0" cindex="1">tenled:tenctr2</parent-of>
+   </clock>
+   <led id="tenled:Led1">
+      <coords x="600" y="139"/>
+   </led>
+   <label id="tenled:Label2" size="12" style="0" color="0">
+      <coords x="100" y="76"/>
+      <text>Clear</text>
+   </label>
+</circuit>

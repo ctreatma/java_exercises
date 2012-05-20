@@ -1,0 +1,18 @@
+Charles Treatman
+DBase Relational Schema
+
+This is my conversion from the E/R diagram to a relational schema.
+I'm pretty certain it's in BCNF and 4NF, but this wouldn't be the
+first time I've been wrong...In lieu of underlining, key attributes
+are preceded and followed by a dash, i.e. "-SSN-".  I'm working on a
+remote terminal and don't know emacs quite well enough to tell it to
+underline things.
+
+Landlord(-SSN-, firstname, lastname, phone, email);
+House(-street-, numbeds, numbaths);
+Owns(-street-, -SSN-);
+Lease(-street-, months, rent, gasYN, sewerYN);
+Rents(-street-, -Tnumber-);
+Student(-Tnumber-, firstname, lastname, phone, OCMR, year, email,
+		   dorm, room);
+Compatible(-wantingTnum-, -wantedTnum-);

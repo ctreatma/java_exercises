@@ -1,0 +1,53 @@
+# Charles Treatman	a2a.sal
+#	computes the average high and low temperatures for one week
+
+	.data
+
+# i/o strings
+prompt0:	.asciiz "Enter high and low temperatures for 7 days\n"	
+prompt1:	.asciiz "day"
+prompt2:	.asciiz ", lo > "
+prompt3:	.asciiz ", hi > "
+outstr1:	.asciiz "Average low temperature: "
+outstr2:	.asciiz "Average high temperature: "
+
+# variables
+temp:		.word			# holds "current" temp
+hi:		.word			# accumulator for high temp
+lo:		.word			# accumulator for low temp
+n:		.word			# "loop" variable
+
+	.text
+
+### main program
+__start:	move n, 1		# initialize n
+		puts prompt0
+
+loop:		bgt n, 7, calcit	# done? then exit loop
+		puts prompt1		# prompt
+		put n			# for
+		puts prompt2		# hi temp
+		get temp		# read in hi temp
+		add lo, lo, temp	# add temp to hi
+		puts prompt1		# prompt
+		put n			# for
+		puts prompt3		# lo temp
+		get temp		# read in lo temp
+		add hi, hi, temp	# add temp to lo
+		add n, n, 1		# add 1 to n
+		b loop			# branch to loop
+
+calcit:		sub n, n, 1		# subtract 1 from n
+		div hi, hi, n		# divide hi by n
+		div lo, lo, n		# divide lo by n
+		b printit		# branch to printit
+
+printit:	puts outstr1		# output
+		put lo			#
+		putc '\n'		#
+		puts outstr2		# the
+		put hi			#
+		putc '\n'		#
+		done			# result
+
+### end main

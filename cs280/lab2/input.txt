@@ -1,0 +1,11 @@
+
+Cqrb orun fjb nwlryqnam frcq j lnjbja lryqna dbrwp j bqroc tnh xo 35.
+Wxcrln cqjc brwln 35 > 26, cqrb rb cqn bjvn jb nwlryqnarwp rc frcq j
+tnh xo 35 - 26 = 9.  (Fqh?)
+
+Cx mnlryqna rc fn wnnm cx dbn cqn tnh 26 - 9 = 17.  Rc jubx cdawb xdc
+cqjc 17 + 26 = 43 fruu fxat, jb fruu 33 + 26 = 59.  Rw ojlc, jwh tnh
+cqjc orcb cqn oxav 17 + t26 (oxa bxvn wxw-wnpjcren rwcnpna t) fruu
+fxat.  Fqjc rb anjuuh rvyxacjwc rb cqjc ro xda nwlahycrxw tnh rb n jwm
+xda mnlahycrxw tnh rb m, cqnw n+m rb j vducryun xo 26.  Fqrlq ljw jubx
+kn farccnw jb (n+m) % 26 = 0.

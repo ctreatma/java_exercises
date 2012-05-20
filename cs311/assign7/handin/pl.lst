@@ -1,0 +1,60 @@
+select * from landlordincome
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+  1  declare
+  2  	f landlord.firstname%type;
+  3  	l landlord.lastname%type;
+  4  	s landlord.ssn%type;
+  5  	i int;
+  6  	cursor c is select firstname, lastname, ssn
+  7  		    from landlord;
+  8  	function calc_income(s in owns.ssn%type) return int as
+  9  		r lease.rent%type;
+ 10  		m lease.months%type;
+ 11  		sa owns.ssn%type;
+ 12  		i int;
+ 13  		cursor b is select rent, months, ssn
+ 14  			    from owns natural join lease;
+ 15  	begin
+ 16  		open b;
+ 17  		i := 0;
+ 18  		loop
+ 19  			fetch b into r, m, sa;
+ 20  			exit when b%notfound;
+ 21  			if sa=s then i := i + (r * m);
+ 22  			end if;
+ 23  		end loop;
+ 24  		return i;
+ 25  	exception
+ 26  		when no_data_found then return 0;
+ 27  	end;
+ 28  
+ 29  
+ 30  begin
+ 31  	open c;
+ 32  	loop
+ 33  		fetch c into f, l, s;
+ 34  		exit when c%notfound;
+ 35  		i := calc_income(s);
+ 36  		insert into LandlordIncome values (f, l, s, i);
+ 37  	end loop;
+ 38  end;
+ 39* 
+
+PL/SQL procedure successfully completed.
+
+
+FIRSTNAME            LASTNAME             SSN           INCOME                  
+-------------------- -------------------- --------- ----------                  
+Duane                Baker                052481171       5200                  
+Lillian              Johnson              091222145          0                  
+Johnathan            Green                119726122          0                  
+Abraham              Zeller               052213121       3120                  
+Rahula               Strohl               119848123       8550                  
+

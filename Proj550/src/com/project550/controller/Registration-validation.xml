@@ -1,0 +1,55 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="firstName">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="lastName">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="usrName">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    <field-validator type="stringlength">
+			<param name="minLength">6</param>
+             <message>Invalid Password: Must be at least 6 characters long!!</message>
+    	</field-validator></field>
+    <field name="email">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    <field-validator type="email">
+      		<message>You must provide a valid email</message>
+   		</field-validator></field>
+    <field name="profession">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+
+    <field name="age">
+        <field-validator type="int">
+       		<param name="min">0</param>
+            <param name="max">100</param>
+       		       <message>Only numbers are allowed in the age textfield</message>
+        </field-validator>
+    </field>
+
+    <field name="country">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+</validators>

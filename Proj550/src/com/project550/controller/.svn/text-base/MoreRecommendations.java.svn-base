@@ -1,0 +1,40 @@
+package project550;
+
+import java.util.Map;
+import java.util.ArrayList;
+
+import com.opensymphony.xwork2.ActionContext;
+
+public class MoreRecommendations extends ExampleSupport {
+
+	public String execute() throws Exception {
+		Map session = ActionContext.getContext().getSession();
+
+        if (session.containsKey("user")) {
+            UserBean user = (UserBean) session.get("user");
+            recommendedLinks = user.getRecommendations();
+
+            if(recommendedLinks == null || recommendedLinks.size() == 0)
+            {
+                addActionError("There are no additional recommended links");
+                return SUCCESS;
+            }
+            else
+                return SUCCESS;
+        }
+        else {
+            addActionError("You must be logged in to do that!");
+            return LOGIN;
+        }
+    }
+
+	private ArrayList<LinkBean> recommendedLinks;
+
+	public ArrayList<LinkBean> getRecommendedLinks() {
+        return recommendedLinks;
+    }
+
+    public void setRecommendedLinks(ArrayList<LinkBean> recommendedLinks) {
+        this.recommendedLinks = recommendedLinks;
+    }
+}

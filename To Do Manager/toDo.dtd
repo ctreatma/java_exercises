@@ -1,0 +1,6 @@
+<!ELEMENT toDoList (toDo*)>
+<!ELEMENT toDo (description)>
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST toDo
+    completed (true|false) #REQUIRED
+>

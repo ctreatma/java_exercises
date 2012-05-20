@@ -1,0 +1,83 @@
+Charles Treatman
+Lab 10 Answers
+
+Ex1:
+1. > (define y '(1 2 3 4))
+   > (cons (set! y '(678)) y)
+	(#<void> 678)
+   > (define y '(1 2 3 4))
+   > (cons y (set! y '(678)))
+	((1 2 3 4) . #<void>)
+
+
+	(define experiment1
+	  (lambda (q2 q3)
+	    q2))
+
+	(define experiment2
+	  (lambda (q2 q3)
+	    q3))
+
+	(define x '(1 2 3 4))
+   > (experiment1 x (set! x 5))
+	(1 2 3 4)
+   > (experiment2 (set! x 5) x)
+	5
+   Based on these experiments, Dr. Scheme evaluates function arguments from left to right.
+
+2.  If the arguments in a function application are independent then it will not matter what order
+they are evaluated in.  However, if (as somewhat shown in the cons experiment in 1) the arguments
+to a function are somehow linked then evaluation order matters.  For example, if one argument A1
+performs an operation on another argument A2, then the function being called might return a different
+answer depending on whether A1 or A2 is evaluated first.
+
+3.  By leaving argument evaluation out of the standard, the designers of Scheme are telling compiler
+writers and programmers that programs in Scheme should be designed to work independent of the
+direction of evaluation.
+
+Ex3:
+1.  Dynamics of (reverse '(1 2 3))
+dir	expression			context							result
+IN   (reverse '(1 2 3))  hole									?
+IN   (reverse '(2 3))	 (append (hole) (list 1))						?
+IN   (reverse '(3))	 (append (append (hole) (list 2)) (list 1))				?
+IN   (reverse '())	 (append (append (append (hole) (list 3)) (list 2)) (list 1))		?
+OUT  (reverse '())	 (append (append (append () (list 3)) (list 2)) (list 1))		()
+OUT  (reverse '(3))	 (append (append '(3) (list 2)) (list 1))				(3)
+OUT  (reverse '(2 3))	 (append '(3 2) (list 1))						(3 2)
+OUT  (reverse '(1 2 3))	 '(3 2 1)								(3 2 1)
+
+2.  Dynamics of (islat '(a b c d))
+dir	expression		context		result
+IN	(islat '(a b c d)) 	hole		?
+IN	(islat '(b c d))	hole		?
+IN	(islat '(c d))		hole		?
+IN	(islat '(d))		hole		?
+IN	(islat '())		hole		?
+OUT	(islat '())		#t		#t
+OUT	(islat '(d))		#t		#t
+OUT	(islat '(c d))		#t		#t
+OUT	(islat '(b c d))	#t		#t
+OUT	(islat '(a b c d))	#t		#t
+
+The dynamics of islat differ from reverse and fact in that the context does not expand with each
+recursive call to islat. There is only the hole waiting to be filled, and no operation waiting for
+the value of the hole.
+
+Ex 4:
+1. A properly tail recursive function passes any necessary context as part of the recursive call
+rather than saving the context on a stack until the recursive call returns, so G has all of the
+information that F would have contributed if G returned to F. 
+
+2. A proper tail recursive call is equivalent to a goto because it maintains the stack level.  That
+is, neither control structure needs to worry about underlying context.
+
+Ex 6:
+2. Converting a tail-recursive function to CPS form requires only the addition of k to all recursive
+calls.  That is, we merely need to keep passing the top-level continuation down to the next level because
+the tail-recursive function is already set up to do all computation on the last recursive call; if the
+interpreter is smart, then the tail-recursive function does not push any additional context onto the stack.
+
+Ex 12:
+1.  In the set! statement in foo, m will be assigned the value m + 1, because goo is resumed with the
+value n = (+ m 2), and then goo resumes foo with value (- n 1) = (- (+ m 2) 1) = m + 1.

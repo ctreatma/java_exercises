@@ -1,0 +1,23 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="username">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message key="requiredstring"/>
+        </field-validator>
+    </field>
+     <field name="password">
+    	<field-validator type = "stringlength">
+			<param name="minLength">6</param>
+             <param name="trim">true</param>
+             <message>Invalid Password: Must be at least 6 characters long!!</message>
+    	</field-validator>
+    </field>
+</validators>

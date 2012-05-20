@@ -1,0 +1,21 @@
+EGYPTIAN MANCALA:
+
+1. Players must select nonempty bins on their own sides, other than
+   their goals (kalahas).
+2. After selecting a bin, the player picks up all of the pieces in
+   that bin and puts one piece per bin going around the board
+   counterclockwise.
+3. While putting the pieces down, a player should skip over her
+   opponent's kalaha.
+4. If the last piece lands in a player's own kalaha, she gets to go again.
+5. If the last piece lands in an empty bin ownd by the player whose
+   turn it is, she must put that piece into her own Kalaha. In addition,
+   she gets to take all the pieces in the opposite bin.
+6. If a player, on her turn (or at the end of her turn), 
+   has no more pieces on her side, the other
+   player gets to collect all the pieces on his side and place them
+   into his kalaha. The game is now over, and the winner is the player
+   with the most pieces in her kalaha.
+7. Tricky Rule: A player cannot make a move that will cause her
+   opponent's side to be empty if there is another move which will not
+   have this effect.

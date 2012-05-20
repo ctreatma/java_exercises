@@ -1,0 +1,12 @@
+CIS 700
+Project 4 - Android
+
+For this assignment I implemented (partially) the TurnBlue assignment that Dave
+has used in previous courses.  The game board is comprised of 64 buttons that
+switch color between red and blue.  The goal of the game is to turn the board
+entirely blue in order to get to the next level.
+
+Really, the only things to see here are:
+    The buttons responding to input
+    The sheer number of GUI widgets
+    

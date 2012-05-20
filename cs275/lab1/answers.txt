@@ -1,0 +1,65 @@
+Charles Treatman
+CS 275
+
+Exercise 1:
+1. 42iscool is not an atom, because it is not bound.  If 42iscool was
+   bound (that is, if it had a defined value) then it would be an atom.
+
+2 & 3. (+ 1 2) is not an atom, because it begins with a parenthesis, and
+   we define an atom as a string of digits starting with a character
+   other than a parenthesis.  However, the value of (+ 1 2) is 3,
+   which is an atom, so the test (atom? (+ 1 2)) returns #t.
+
+Exercise 2:
+1. (x y) z is not a list, because it is not enclosed in parentheses.
+If the expression were ((x y) z) then it would be a list.  But it
+isn't.
+
+2. (x y) z is not an S-expression, because it is a collection of
+   S-expressions (a list and an atom) but it is not enclosed in parentheses.
+
+3. () is a list, so it is also an S-expression.
+
+
+Exercise 3:
+1. > (cdr (car '((banana tree) bark)))
+   
+   (tree)
+
+2. > (cons (car '(big hairy nose)) (cdr (cons '(victorian
+   (handkerchief)) (cdr (big hairy nose)))))
+   
+   (big hairy nose)
+
+3. caddr returns the third element of a list.  Thus the argument to caddr
+   must be a list of at least three elements.
+
+Exercise 4:
+1. > ( (lambda (n1 n2) (+ (* n1 n2) 42)) 3 2)
+   48
+   For ease of use, we could define an atom to be the function, like
+   so: > (define foo (lambda (n1 n2) (+ (* n1 n2) 42))).  So (foo 3 2)
+   returns 48: > (foo 3 2)
+	       48.
+
+2. From the start we'll define an atom "centtofahr" to be the function
+to convert from centigrade to fahrenheit:
+   > (define centtofahr (lambda (cent) (+ (* 9/5 cent) 32)))
+   > (centtofahr 200)
+   392
+   > (centtofahr 100)
+   212
+
+3. If we define the atom "nutty" to be the function:
+   > (define nutty (lambda () 'peanut-butter))
+   > (nutty)
+   peanut-butter
+
+Exercise 5:
+Define the atom "foobar" to be the requested function:
+       (define foobar (lambda (atom) (cond
+		       [(equal? 'name atom) "Charles Treatman"]
+		       [(equal? 'partners atom) "No Partners"]
+		       [(equal? 'comments atom) "no-comments"]
+		       [else "Taco Night at the Rat"]
+		       )))

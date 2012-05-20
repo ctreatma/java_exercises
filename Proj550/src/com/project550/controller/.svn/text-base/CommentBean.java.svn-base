@@ -1,0 +1,156 @@
+package project550;
+
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+/**
+ * This object stores all of the attributes from a Comment entity.
+ */
+public class CommentBean {
+
+	/** Unique id number identifying a comment. */
+	private int cid;
+	/** Id number of the user who posted the comment. */
+	private int uid;
+	private UserBean user;
+	/** Id number of the link in which this comment is posted. */
+	private int lid;
+	/** Subject of the comment specified by the user. */
+	private String title;
+	/** The actual text forming the body of the comment. */
+	private String content;
+	/** The date and time the comment was posted. */
+	private Timestamp postDateTime;
+	/**
+	 * The cid of the comment the current comment is in reply to.
+	 * -1 if this comment is not in reply to any other comment.
+	 */
+	private int reply;
+
+	/**
+	 * Default constructor which populates CommentBean object with "null" values.
+	 */
+	public CommentBean() {
+		cid = -1;
+		uid = -1;
+		lid = -1;
+		title = null;
+		content = null;
+		postDateTime = null;
+		reply = -1;
+	}
+
+	/**
+	 * @return the cid
+	 */
+	public int getCid() {
+		return cid;
+	}
+
+	/**
+	 * @param cid the cid to set
+	 */
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+
+	/**
+	 * @return the uid
+	 */
+	public int getUid() {
+		return uid;
+	}
+
+	/**
+	 * @param uid the uid to set
+	 */
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
+
+	/**
+	 * @return the lid
+	 */
+	public int getLid() {
+		return lid;
+	}
+
+	/**
+	 * @param lid the lid to set
+	 */
+	public void setLid(int lid) {
+		this.lid = lid;
+	}
+
+	/**
+	 * @return the description
+	 */
+	public String getTitle() {
+		return title;
+	}
+
+	/**
+	 * @param description the description to set
+	 */
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	/**
+	 * @return the content
+	 */
+	public String getContent() {
+		return content;
+	}
+
+	/**
+	 * @param content the content to set
+	 */
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	/**
+	 * @return the postDateTime
+	 */
+	public Timestamp getPostDateTime() {
+		return postDateTime;
+	}
+
+	/**
+	 * @param postDateTime the postDateTime to set
+	 */
+	public void setPostDateTime(Timestamp postDateTime) {
+		this.postDateTime = postDateTime;
+	}
+
+	/**
+	 * @return the reply
+	 */
+	public int getReply() {
+		return reply;
+	}
+
+	/**
+	 * @param reply the reply to set
+	 */
+	public void setReply(int reply) {
+		this.reply = reply;
+	}
+
+    public String getFormattedDate() {
+        SimpleDateFormat df = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z");
+        Calendar c = Calendar.getInstance();
+        c.setTimeInMillis(postDateTime.getTime());
+        return df.format(c.getTime());
+    }
+
+    public UserBean getUser() {
+        return user;
+    }
+
+    public void setUser(UserBean user) {
+        this.user = user;
+    }
+}

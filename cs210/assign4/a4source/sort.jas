@@ -1,0 +1,310 @@
+// sort.jas
+//
+// Program to sort arrays
+// Author: (Your name here)
+//
+
+.constant
+OBJREF 	0x40			// needed for method invokation - see Tanenbaum, chapter 4
+A	0x4010			// array address
+.end-constant
+
+.main
+.var
+size					// holds array size (determined by getarray)
+.end-var
+start:	LDC_W  OBJREF			// prepare call to getarray
+	LDC_W  A
+	INVOKEVIRTUAL getarray		// call getarray
+	ISTORE size			// store returned value as array size
+sortit: LDC_W  OBJREF			// prepare call to sort
+	LDC_W  A
+	ILOAD  size
+	INVOKEVIRTUAL sort		// call sort
+	POP				// pop dummy returned value
+	LDC_W  OBJREF			// prepare call to printsep
+	INVOKEVIRTUAL printsep		// call printsep
+	POP				// pop dummy returned value
+	LDC_W  OBJREF			// prepare call to printarray
+	LDC_W  A			// call printsep 
+	ILOAD  size		
+	INVOKEVIRTUAL printarray	// call printarray
+	POP				// pop dummy returned value
+	LDC_W  OBJREF			// prepare call to printsep
+	INVOKEVIRTUAL printsep		// call printsep           
+	POP				// pop dummy returned value
+	GOTO start			// repeat
+.end-main
+
+.method sort(a,tp)
+.var
+i
+j
+hldi
+hldj
+.end-var		
+	BIPUSH 0x0
+	BIPUSH 0x1
+	ISUB			// Initialize i = -1
+	ISTORE i
+loop1:	IINC i 1
+	ILOAD i			// Load i
+	BIPUSH 0x1		// Push a 1
+	IADD			// Store i + 1 in j
+	ISTORE j
+	ILOAD tp		// Load size - 1
+	BIPUSH 0x1
+	ISUB
+	ILOAD i 		// Load i
+	ISUB
+	IFLT      return	// If i > size - 1, we're done
+loop2:	ILOAD tp		// Load size - 1
+	BIPUSH 0x1
+	ISUB
+	ILOAD j 		// Load j
+	ISUB			// If j > size - 1, go to outer loop
+	IFLT loop1  	
+	ILOAD a			// Load array reference
+	ILOAD i			// Load index
+	IALOAD			// Fetch a[j]
+	ILOAD a			// Load array reference
+	ILOAD j			// Load i
+	IALOAD			// Fetch a[i]
+	ISUB			// If i < j, goto skip
+	IFLT skip 	
+	ILOAD a			// Load a
+	ILOAD i			// Load i
+	IALOAD			// Fetch a[i] and store in hldi
+	ISTORE hldi
+	ILOAD a			// Load a
+	ILOAD j			// Load j
+	IALOAD			// Fetch a[j] and store in hldj
+	ISTORE hldj		
+	ILOAD a			// Load a
+	ILOAD i			// Load i
+	ILOAD hldj		// Load hldj and store in a[i]
+	IASTORE			
+	ILOAD a			// Load a
+	ILOAD j			// Load j
+	ILOAD hldi		// Load hldi and store in a[j]
+	IASTORE
+skip:	IINC j 1		// Increment j
+	GOTO loop2		// Return to inner loop
+return:	IRETURN
+.end-method
+
+.method printsep()			// print "===="
+	BIPUSH 0x3d		
+	DUP
+	DUP
+	DUP
+	OUT
+	OUT
+	OUT
+	OUT
+	BIPUSH 0xa
+	OUT
+	BIPUSH 0
+	IRETURN
+.end-method	
+
+.method getarray(a)			// inputs an array, terminating with 0
+.var					// returns array size
+idx
+.end-var
+	BIPUSH 0x0
+	ISTORE idx
+gloop0:	LDC_W  a
+	ILOAD idx
+	LDC_W OBJREF		
+	INVOKEVIRTUAL getnum
+	DUP
+	BIPUSH 0
+	IF_ICMPEQ gdone
+	IASTORE
+	ILOAD idx
+	BIPUSH 1
+	IADD
+	ISTORE idx
+	GOTO gloop0
+gdone:  ILOAD idx
+	IRETURN
+.end-method
+
+.method printarray(a, size)		// prints array
+.var
+idx
+.end-var
+	BIPUSH 0x0
+	ISTORE idx
+ploop0:	ILOAD idx
+	ILOAD size
+	IF_ICMPEQ pdone
+	LDC_W  A
+	ILOAD idx
+	IALOAD
+	LDC_W OBJREF
+	SWAP	
+	INVOKEVIRTUAL print
+	POP
+	ILOAD idx
+	BIPUSH 1
+	IADD
+	ISTORE idx
+	GOTO ploop0
+pdone:  BIPUSH 0
+	IRETURN
+.end-method
+
+.method getnum()		// inputs a number
+.var
+a
+.end-var
+
+	BIPUSH 0x0		// initialize a
+        ISTORE a
+geta:	IN			// read key press
+	DUP			// duplicate key for comparison
+	BIPUSH 0xa		// if key = cr,
+	IF_ICMPEQ return	//   return
+	DUP
+	BIPUSH 0x30		// if key < "0"
+	ISUB			//
+	IFLT geta4		//   goto geta4 (key is not a hex digit)
+    	DUP
+	BIPUSH 0x3a		// else if key < ":"
+	ISUB			//
+	IFLT geta2		//   goto geta2 (key is numeric character - "0"-"9")
+	DUP
+	BIPUSH 0x41		// else if key < "A"
+	ISUB			//
+	IFLT geta4		//   goto geta4 (key is not a hex digit)
+	DUP
+	BIPUSH 0x46		// else if key > "F"
+	SWAP			//  
+	ISUB			//
+	IFLT geta4		//   goto geta4 (key is not a hex digit)
+	DUP			// else (key is letter - "A"-"F")
+	OUT			//   print key
+	BIPUSH 0x37		//   convert key from character to number
+	ISUB			//
+	GOTO geta3		//   goto geta3
+geta2:  DUP
+	OUT			// print key (numeric character)
+	BIPUSH 0x30		// convert key from character to number
+	ISUB
+geta3:  ILOAD a			// shift a left 8 bits
+	DUP
+	IADD
+	DUP
+	IADD
+	DUP
+	IADD
+	DUP
+	IADD
+	IADD			// add key to a
+	ISTORE a
+	GOTO geta		// get next key
+
+geta4:	POP			// pop invalid character
+	GOTO geta		// get next key
+
+return: OUT			// print cr
+	ILOAD a			// load a as return value
+	IRETURN			// return
+.end-method
+
+.method print( total ) 		// print converts a number into a string of
+				//   characters and prints them.  All of the characters
+				//   are pushed onto the stack, least significant
+				//   digit first, then popped off and printed.
+.var
+place
+index
+.end-var
+
+print: 	BIPUSH 0x9		// there are 8 nibbles in each integer--setting
+				//   this as nine pushes 10 characters onto the
+ 				//   stack, thus a total of ten printed digits,
+				//   but setting this less does not remove the
+				//   two leading zeros, just removes significant
+				//   digits
+	ISTORE index
+	BIPUSH 0x1		// comparison bit
+	ISTORE place
+print1:	BIPUSH 0x0
+	ILOAD index		// index = index - 1
+	BIPUSH 0x1
+	ISUB
+	DUP
+	IFEQ pall		// if index = 0  goto pall
+	ISTORE index
+	ILOAD total		// else
+	ILOAD place		//
+	IAND			//   if 1st bit of current nibble is zero (total & place)
+	IFEQ print2		//     goto print2
+	BIPUSH 0x1		//   else set first bit of character
+	IADD
+print2: ILOAD place		//   place = place << 1 
+	DUP
+	IADD
+	ISTORE place
+	ILOAD total
+	ILOAD place
+	IAND			//   if 2nd bit of current nibble is zero (total & place)
+	IFEQ print3		//     goto print3
+	BIPUSH 0x2		//   else set second bit of character
+	IADD	
+print3: ILOAD place		//   place = place << 1
+	DUP
+	IADD
+	ISTORE place
+	ILOAD total
+	ILOAD place
+	IAND			//   if 3rd bit of current nibble is zero (total & place)
+	IFEQ print4		//     goto print4
+	BIPUSH 0x4		//   else set second bit of character
+	IADD	
+print4: ILOAD place		//   place = place << 1
+	DUP
+	IADD
+	ISTORE place
+	ILOAD total
+	ILOAD place
+	IAND			//   if 4th bit of current nibble is zero (total & place)
+	IFEQ print5		//     goto print5
+	BIPUSH 0x8		//   else set second bit of character
+	IADD	
+print5: ILOAD place		//   place = place << 1
+	DUP
+	IADD
+	ISTORE place
+	GOTO print1
+	
+pall:   POP			// Pop off leading 0's
+	POP
+	BIPUSH 0x9
+	ISTORE index
+pall1:	ILOAD index		// index = index - 1
+	BIPUSH 0x1
+	ISUB
+	DUP
+	IFEQ return		// if index = 0  return
+	ISTORE index
+	DUP
+	BIPUSH 0xa		// else if character < 0xa goto pall1
+	ISUB
+	IFLT pall2
+	BIPUSH 0x37		// else convert character to "A"-"F"
+	IADD
+	OUT			// print character
+	GOTO pall1		// goto pall (prepare & print next character)
+pall2:	BIPUSH 0x30		// convert character to "0"-"9"
+	IADD
+	OUT			// print character
+	GOTO pall1		// goto pall1 (prepare & print next character)
+return:	BIPUSH 0xa		// print cr
+	OUT
+	BIPUSH 0		// return dummy 0
+	IRETURN			
+.end-method

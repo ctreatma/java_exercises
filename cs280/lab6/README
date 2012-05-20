@@ -1,0 +1,9 @@
+Charles Treatman ctreatma
+README
+
+Everything works, or nearly that.
+Note that I changed the spelling in mst-timing.cc to match my function names in graph_algs.cc.  That is, I changed all mention of "Kruskul" to "Kruskal"...so ifyou want to use Kruskal or KruskalSlow, make sure you spell it my way.
+
+There must be some kind of error in my deconstructor, because after mst-timing is done with everything and has printed its result, it segfaults.  I probably won't be doing much to change this...I'd rather lose a point or two for a bad deconstructor than a point or five for lateness.  So, if you run my lab and find that it is, in fact, segfaulting, be aware that I know it's segfaulting, and that the way it's segfaulting doesn't intrude too much on the performance of the lab.  And if you can readily see why my deconstructor is giving me the virtual finger, please let me know.
+
+To check my sort algorithm, I wrote the crappy piece of code immortalized as "sort_check.cc".  Believe me, it's shit, you don't want to look at it.  Just accept that it makes the array 10, 9, 8, 7, ..., 1, and then sorts the array and prints out the sorted array.  Just make sort_check, and then the command sort_check will do the rest, no arguments, no nothing.

@@ -1,0 +1,112 @@
+package edu.upenn.cis555.xpath;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+
+public class XPathEngine {
+    private String xPathExpr;
+    
+    public XPathEngine(String xPathExpr) {
+        // TODO: Check xPathExpr in more detail
+        if (xPathExpr.startsWith("/")) {
+        this.xPathExpr = xPathExpr.replaceFirst("/", "");
+        }
+        else {
+            throw new IllegalArgumentException("XPathEngine received bad XPath expression.");
+        }
+    }
+    
+    public boolean evaluate(Document document) {
+        // Prepare the queue of tests
+        String[] testStrs = xPathExpr.split("/");
+        Queue<String> tests = new LinkedList<String>();
+        for (String test : testStrs) {
+            tests.add(test);
+        }
+
+        String test = tests.remove();
+        if (document.getDocumentElement().getTagName().compareTo(test) == 0) {
+            return evaluateElement(document.getDocumentElement(), tests);
+        }
+        return false;
+    }
+    
+    private boolean evaluateElement(Element element, Queue<String> tests) {
+        // Two cases:
+        //    1.  test is a tag name : if element has children matching tag name:
+        //                                if has more tests:  test children
+        //                                else return true
+        //                             else return false
+        //    2.  test is text(), contains(), or @attr : check element for match
+        tests = new LinkedList<String>(tests);
+        String test = tests.remove();
+        
+        // Check if this is a text() test
+        Pattern pattern = Pattern.compile("^text\\(\\)\\s*=\\s*\"(.*)\"$");
+        Matcher matcher = pattern.matcher(test);
+        if (matcher.matches()) {
+            test = matcher.group(1);
+            return element.getTextContent().compareTo(test) == 0;
+        }
+        
+        // Check if this is a contains() test
+        pattern = Pattern.compile("^contains\\(text\\(\\),\\s*\"(.*)\"\\)$");
+        matcher = pattern.matcher(test);    
+        if (matcher.matches()) {
+            test = matcher.group(1);
+            return element.getTextContent().contains(test);
+        }
+        
+        // Check if this is an @attr test
+        pattern = Pattern.compile("^@(.+)\\s*=\\s*\"(.*)\"$");
+        matcher = pattern.matcher(test);    
+        if (matcher.matches()) {
+            String attr = matcher.group(1);
+            test = matcher.group(2);
+            return element.getAttribute(attr).compareTo(test) == 0;
+        }
+
+        // Must be a step
+        // Get any subtests for the current step
+        Queue<String> subTests = null;
+        if (test.contains("[")) {
+            subTests = getSubTestQueue(test.substring(test.indexOf("[")));
+            test = test.substring(0,test.indexOf("["));
+        }
+        NodeList children = element.getElementsByTagName(test);
+        if (children.getLength() > 0) {
+            if (subTests != null || tests.size() > 0) {
+                for (int i = 0; i < children.getLength(); ++i) {
+                    if (subTests == null || evaluateElement((Element)children.item(i), subTests) ) {
+                        if (tests.size() == 0 || evaluateElement((Element)children.item(i), tests)) {
+                            return true;
+                        }
+                    }
+                }
+            }
+            else {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    private Queue<String> getSubTestQueue(String xPathStep) {
+        Queue<String> tests = new LinkedList<String>();
+        while (xPathStep.length() > 0) {
+            int endIndex = 0;
+            while (xPathStep.charAt(endIndex) != ']') {
+                endIndex++;
+            }
+            tests.add(xPathStep.substring(1, endIndex));
+            xPathStep = xPathStep.substring(endIndex+1);
+        }
+        return tests;
+    }
+}

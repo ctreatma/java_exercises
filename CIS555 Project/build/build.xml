@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+
+<project name="CIS-555 2010" default="build" basedir=".">
+
+    <property name="project.root" location="${basedir}${file.separator}.."/>
+    <property name="build.dir" location="${project.root}"/>
+    <property name="web-inf.dir" location="${build.dir}${file.separator}target${file.separator}WEB-INF"/>
+    <property name="classes.dir" location="${web-inf.dir}${file.separator}classes"/>
+    <property name="test-classes.dir" location="${build.dir}${file.separator}target${file.separator}test-classes"/>
+    <property name="lib.dir" location="${build.dir}${file.separator}lib"/>
+    <property name="web-inf.lib.dir" location="${web-inf.dir}${file.separator}lib"/>
+    <property name="target.lib.dir" location="${build.dir}${file.separator}target${file.separator}lib"/>
+    <property name="src.main.dir" location="${build.dir}${file.separator}src${file.separator}main"/>
+    <property name="src.test.dir" location="${build.dir}${file.separator}src${file.separator}test"/>
+    <property name="conf.dir" location="${build.dir}${file.separator}conf"/>
+    <property name="module.name" value="cis-555"/>
+
+    <path id="test.classpath">
+        <pathelement location="${test-classes.dir}" />
+<!--        <pathelement location="${lib.dir}${file.separator}junit-4.7.jar" /> -->
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+            <include name="*.zip"/>
+        </fileset>
+    </path>
+<!--	
+    <taskdef name="junit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+	  <classpath>
+    		<fileset dir="${lib.dir}">
+    			<include name="junit-4.7.jar"/>
+    		</fileset>
+	  </classpath>
+	</taskdef>
+-->
+    <target name="compilejavamain" description="compiles java main source code">
+        <javac srcdir="${src.main.dir}" destdir="${classes.dir}" debug="on" deprecation="off" optimize="on" includeAntRuntime="no">
+            <classpath>
+                <fileset dir="${lib.dir}">
+                    <include name="*.jar"/>
+                    <include name="*.zip"/>
+                </fileset>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="compilejavatest" description="compiles java test source code">
+        <javac srcdir="${src.test.dir}" destdir="${test-classes.dir}" debug="on" deprecation="off" optimize="on" includeAntRuntime="no">
+            <classpath>
+                <fileset dir="${lib.dir}">
+                    <include name="*.jar"/>
+                    <include name="*.zip"/>
+                </fileset>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="cleanup" description="deletes all the compiled class files">
+        <delete failonerror="false" includeemptydirs="true">
+            <fileset dir="${classes.dir}">
+                <include name="**/*" />
+            </fileset>
+            <fileset dir="${test-classes.dir}">
+                <include name="**/*" />
+            </fileset>
+        </delete>
+    </target>
+    
+    <target name="build">
+        <antcall target="compilejavamain" />
+        <jar destfile="${lib.dir}${file.separator}${module.name}.jar" update="true">
+            <fileset dir="${classes.dir}">
+                <include name="**" />
+            </fileset>
+        </jar>
+        <copy file="${conf.dir}${file.separator}web.xml" tofile="${web-inf.dir}${file.separator}web.xml" overwrite="true" />
+        <copy file="${conf.dir}${file.separator}stopwords.lst" tofile="${classes.dir}${file.separator}stopwords.lst" overwrite="true" />
+        <copy todir="${web-inf.lib.dir}" overwrite="true">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar"/>
+                <include name="*.zip"/> 
+                <exclude name="junit*.jar"/>
+            </fileset>
+        </copy>
+        <antcall target="compilejavatest" />
+        <jar destfile="${target.lib.dir}${file.separator}${module.name}test.jar" update="true">
+            <fileset dir="${test-classes.dir}">
+                <include name="**" />
+            </fileset>
+        </jar>
+        <copy todir="${target.lib.dir}" overwrite="true">
+            <fileset dir="${lib.dir}">
+                <include name="junit*.jar"/>
+            </fileset>
+        </copy>
+        <move file="${lib.dir}${file.separator}${module.name}.jar" todir="${web-inf.dir}" overwrite="true" />
+        <antcall target="cleanup"/>
+    </target>
+
+    <target name="test" depends="compilejavatest">
+        <junit fork="yes" haltonfailure="yes">
+ <!--           <test name="edu.upenn.cis555.mustang.TestHarness" /> -->
+            <formatter type="plain" usefile="false" />
+            <classpath refid="test.classpath" />
+     <batchtest>
+       <fileset dir="${test-classes.dir}">
+         <include name="**/*Test*" />
+       </fileset>
+     </batchtest>
+        </junit>
+    </target>
+
+</project>

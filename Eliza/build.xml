@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+   Apache Ant build file for a generic Scala program that uses ScalaTest.
+
+   You need to have Java 5+ and Apache Ant installed and available at the command line.
+   If those are installed, but not available at the command line, you need to add them to your path.
+   Instructions for doing that on your platform can be easily obtained through Google.
+
+   To use this file, type any of the following lines on the command line:
+     ant build #compile the program
+     ant run   #run the program
+     ant test  #run your unit tests
+     ant doc   #create scaladocs documentation
+     ant -p    #list ALL the available actions
+-->
+
+<project default="build" 
+         name="Eliza - interactive therapist" 
+         basedir=".">
+
+  <!-- If you change the entry point of your program from MyProgram you must change this value! -->
+  <property name="entrypoint.name"
+            value="Eliza"/> 
+
+  <!-- relative path variables -->
+  <property name="bin" 
+            location="bin"/>
+  <property name="lib" 
+            location="lib"/>
+  <property name="src" 
+            location="src"/>
+  <property name="test"
+            location="test"/>
+  <property name="doc"
+            location="doc"/>
+
+  <!-- initialize classpath -->
+  <target name="-init">
+    <path id="build.classpath">
+      <fileset dir="${lib}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <pathelement location="${bin}"/>
+    </path>
+    
+    <taskdef resource="scala/tools/ant/antlib.xml">
+      <classpath refid="build.classpath"/>
+    </taskdef>
+  </target>
+
+  <!-- compile program -->
+  <target name="build" 
+          depends="-init" 
+          description="compile Scala source">
+    <mkdir dir="${bin}"/>
+    <scalac srcdir="${src}"
+         destdir="${bin}"
+         classpathref="build.classpath"
+         deprecation="on"
+         unchecked="on">
+    </scalac>
+    <scalac srcdir="${test}"
+         destdir="${bin}"
+         classpathref="build.classpath"
+         deprecation="on"
+         unchecked="on">
+    </scalac>
+  </target>
+
+  <!-- generate docs -->
+  <target name="doc"
+          depends="-init"
+          description="generate scaladocs documentation">
+    <mkdir dir="${doc}"/>
+    <scaladoc
+      srcdir="${src}"
+      destdir="${doc}"
+      classpathref="build.classpath"
+      deprecation="yes"
+      unchecked="yes">
+    </scaladoc>
+  </target>
+
+  <!-- cleanup -->
+  <target name="clean"
+          description="remove compiled scala and documentation files">
+    <delete dir="${bin}" 
+            quiet="true" 
+            failonerror="false"/>
+    <delete dir="${doc}" 
+            quiet="true" 
+            failonerror="false"/>
+  </target>
+
+  <!-- run unit tests -->
+  <target name="test"
+          depends="build"
+          description="run all ScalaTests in /test">
+    <taskdef name="scalatest" classname="org.scalatest.tools.ScalaTestAntTask">
+      <classpath refid="build.classpath"/>
+    </taskdef>
+    <scalatest>
+      <!-- ADD MORE TEST OBJECTS HERE -->
+      <suite classname="ElizaTest"/>
+    </scalatest>
+  </target>
+
+  <!-- run program -->
+  <target name="run"
+          description="run the program"
+          depends="build">
+
+    <java classname="scala.tools.nsc.MainGenericRunner"
+          fork="true"
+          classpathref="build.classpath">
+      <jvmarg line="-Xmx256M"/>
+      <jvmarg value="-Xms32M"/>
+      <jvmarg value="-Dscala.home=."/>
+      <arg value="-cp"/>
+      <arg value="${bin}"/>
+      <arg value="${entrypoint.name}"/>
+    </java>
+  </target>
+
+</project>

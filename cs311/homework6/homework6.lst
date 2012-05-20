@@ -1,0 +1,150 @@
+
+FIRSTNAME    LASTNAME        EMAIL                                              
+------------ --------------- ------------------------                           
+Kathryn      Powers          kat4342@earthlink.net                              
+Igor         Stravinsky      igor@cs.oberlin.edu                                
+Krista       Egger           kegger@oberlin.edu                                 
+Hannah       Spencer         hspencer@oberlin.edu                               
+Keegan       Wood            kwood@oberlin.edu                                  
+
+
+no rows selected
+
+
+FIRSTNAME    LASTNAME        PHONE                                              
+------------ --------------- ----------                                         
+Doctor       Frankenstein    3138722442                                         
+Duane        Baker           4409850423                                         
+
+
+STREET                         FIRSTNAME    LASTNAME                            
+------------------------------ ------------ ---------------                     
+119 N Pleasant Street          Kathryn      Powers                              
+216 N Main St                  Krista       Egger                               
+216 N Main St                  Krista       Egger                               
+261 N Main Street              Charles      Treatman                            
+261 N Main Street              Kathryn      Powers                              
+261 N Main Street              Freddy       Moyer                               
+56 Walnut St                   Hannah       Spencer                             
+56 Walnut St                   Jennifer     Ni                                  
+56 Walnut St                   Hannah       Spencer                             
+56 Walnut St                   Jennifer     Ni                                  
+64 N Park St                   Igor         Stravinsky                          
+
+STREET                         FIRSTNAME    LASTNAME                            
+------------------------------ ------------ ---------------                     
+84 S Park St #1                Keegan       Wood                                
+84 S Park St #1                Keegan       Wood                                
+
+13 rows selected.
+
+
+FIRSTNAME    LASTNAME                                                           
+------------ ---------------                                                    
+Emily        Spence                                                             
+Nicole       Middaugh                                                           
+Kimberly     Meinert                                                            
+Gabriel      Golden                                                             
+Thomas       Limouze                                                            
+Yorgos       Strangas                                                           
+Craig        Betchart                                                           
+
+7 rows selected.
+
+
+SSN         COUNT(*)                                                            
+--------- ----------                                                            
+009234122          2                                                            
+052419098          5                                                            
+085991212          2                                                            
+105679998          1                                                            
+112233344          1                                                            
+112435597          3                                                            
+112567798          1                                                            
+
+7 rows selected.
+
+
+FIRSTNAME    LASTNAME                                                           
+------------ ---------------                                                    
+Freddy       Moyer                                                              
+Emily        Spence                                                             
+Kimberly     Meinert                                                            
+Thomas       Limouze                                                            
+Yorgos       Strangas                                                           
+Craig        Betchart                                                           
+
+6 rows selected.
+
+
+WANTEDTNUM WANTINGTNUM                                                          
+---------- -----------                                                          
+T00054342  T00032696                                                            
+T00032696  T00054342                                                            
+T00032696  T00042434                                                            
+T00042434  T00032696                                                            
+T00044122  T00032696                                                            
+T00059877  T00098232                                                            
+T00098232  T00059877                                                            
+T00044122  T00007621                                                            
+T00032696  T00044122                                                            
+T00007621  T00044122                                                            
+
+10 rows selected.
+
+
+STREET                         NUMBEDS NUMBATHS                                 
+------------------------------ ------- --------                                 
+261 N Main Street                    4        1                                 
+27 Union Street                      5        2                                 
+119 N Pleasant Street                4        2                                 
+64 N Park St                         4        1                                 
+84 Groveland St                      4        2                                 
+119 N Pleasant St                    4        2                                 
+218 N Main St                        5        2                                 
+119 Groveland St                     8        3                                 
+46 Union St                          4        2                                 
+119 W Lorain St                      4        1                                 
+25 N Park St                         4        2                                 
+
+STREET                         NUMBEDS NUMBATHS                                 
+------------------------------ ------- --------                                 
+22 South St                          4        2                                 
+56 Walnut St                         4        2                                 
+56 Groveland St                      6        2                                 
+
+14 rows selected.
+
+
+STREET                                                                          
+------------------------------                                                  
+119 N Pleasant St                                                               
+56 Walnut St                                                                    
+218 N Main St                                                                   
+56 Groveland St                                                                 
+119 W Lorain St                                                                 
+
+
+1 row created.
+
+
+1 row created.
+
+
+2 rows created.
+
+
+1 row created.
+
+
+7 rows updated.
+
+
+1 row updated.
+
+
+1 row deleted.
+
+
+1 row deleted.
+

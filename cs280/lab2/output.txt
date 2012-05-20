@@ -1,0 +1,11 @@
+
+This file was encipherd with a ceasar cipher using a shift key of 35.
+Notice that since 35 > 26, this is the same as enciphering it with a
+key of 35 - 26 = 9.  (Why?)
+
+To decipher it we need to use the key 26 - 9 = 17.  It also turns out
+that 17 + 26 = 43 will work, as will 33 + 26 = 59.  In fact, any key
+that fits the form 17 + k26 (for some non-negative integer k) will
+work.  What is really important is that if our encryption key is e and
+our decryption key is d, then e+d is a multiple of 26.  Which can also
+be written as (e+d) % 26 = 0.

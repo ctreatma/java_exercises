@@ -1,0 +1,3661 @@
+Net Debug: resolving server ip
+Net Debug: opening server socket
+Net Debug: server successfully created
+Server Debug: CreateThread called: 
+Server Debug: thread_func() called on: 0xbffff4f0
+ServerNetIO::getMessage() called
+Net Debug: ServerNetIO::thread_func() called
+Net Debug: socket to localhost:55684 created
+Net Debug: polling localhost:55684 for data
+Net Debug: received: QRS:
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:55684 for data

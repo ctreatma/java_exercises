@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <package name="project550" extends="struts-default" namespace="/project550">
+
+    <action name="doLogin">
+      <result>/project550/login.jsp</result>
+    </action>
+
+    <action name="doReg">
+      <result>/project550/register.jsp</result>
+    </action>
+
+	<action name="postLink">
+      <result>/project550/addlink.jsp</result>
+    </action>
+
+	<action name="home" class="project550.Home">
+      <result>/project550/index.jsp</result>
+    </action>
+
+    <action name="startComment" class = "project550.StartComment">
+      <result name="login">/project550/login.jsp</result>
+      <result>/project550/addcomment.jsp</result>
+    </action>
+    
+    <action name="moreRecommendations" class="project550.MoreRecommendations">
+      <result name="login">/project550/login.jsp</result>
+      <result>/project550/MoreRecommendations.jsp</result>
+    </action>
+
+	<action name="search" class = "project550.Search">
+      <result name="input">/project550/advancedsearch.jsp</result>
+      <result>/project550/search.jsp</result>
+    </action>
+
+    <action name="login" class="project550.Login">
+      <result name="input">/project550/login.jsp</result>
+      <result type="redirect-action">
+        <param name="actionName">showProfile</param>
+      </result>
+    </action>
+
+    <action name="logout" class="project550.Logout">
+      <result type="redirect-action">home</result>
+    </action>
+
+    <action name="categories" class="project550.CategoryHandler">
+      <result name="input">/project550/category.jsp</result>
+      <result>/project550/category.jsp</result>
+    </action>
+
+    <action name="createUser" class="project550.Registration">
+      <result name="input">/project550/register.jsp</result>
+      <result>/project550/SuccessReg.jsp</result>
+    </action>
+
+	<action name="submitComment" class="project550.CommentHandler">
+      <result name="input">/project550/addcomment.jsp</result>
+      <result name="login">/project550/login.jsp</result>
+      <result type="redirectAction">showLink?lid=${lid}</result>
+    </action>
+
+    <action name="submitLink" class="project550.LinkHandler">
+      <result name="input">/project550/addlink.jsp</result>
+      <result name="login">/project550/login.jsp</result>
+      <result type="redirectAction">showLink?lid=${lid}</result>
+    </action>
+
+    <action name="showProfile" class="project550.ShowProfile">
+      <result>/project550/showProfile.jsp</result>
+    </action>
+
+    <action name="viewFriends" class="project550.ViewFriends">
+      <result name="login">/project550/login.jsp</result>
+      <result>/project550/viewFriends.jsp</result>
+    </action>
+
+    <action name="showLink" class="project550.ShowLink">
+      <result>/project550/showLink.jsp</result>
+    </action>
+
+    <action name="addFriend" class="project550.AddFriend">
+      <result name="login">/project550/login.jsp</result>
+      <result>/project550/showProfile.jsp</result>
+    </action>
+
+	<action name="rateLink" class="project550.RateLink">
+      <result name="login">/project550/login.jsp</result>
+      <result>/project550/rateLink.jsp</result>
+    </action>
+
+	<action name="submitRating" class="project550.SubmitRating">
+      <result name="input">/project550/rateLink.jsp</result>
+      <result name="login">/project550/login.jsp</result>
+      <result type="redirectAction">showLink?lid=${lid}</result>
+    </action>
+
+	<action name="getRss" class="project550.RSSHandler">
+      <result>/project550/rss.jsp</result>
+    </action>
+
+    <action name="*" class="project550.ExampleSupport">
+      <result>/project550/{1}.jsp</result>
+    </action>
+
+        <!-- Add actions here -->
+    </package>
+</struts>

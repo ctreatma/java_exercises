@@ -1,0 +1,14 @@
+Charles Treatman ctreatma
+README
+
+Everything seems to work the way it should.
+To make the SecNet test program, make sec_net.
+Usage:
+sec_net <graphtype> <input> <algorithm>
+graphtype is 0 or 1, depending on whether you want a matrixgraph or a listgraph
+input is the name of the graph file, i.e. estonia.gph
+algorithm is 0 or 1: 0 for Kruskal, 1 for Prim
+
+I'm pretty sure everything else works as described in the lab.
+
+Answers in mem_limit.txt were deduced using the graph_gen program.

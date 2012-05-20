@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+#tasksDiv, #formsDiv, #rootDiv {
+	float: left;
+	padding: 5px;
+}
+
+#taskList {
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+#addNew, #removeCompleted, #taskList td, #taskList th {
+	border: 2px solid #444;
+}
+
+#taskList td, #taskList th {
+	padding: 2px;
+}
+
+#addNew, #removeCompleted {
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.button, h1 {
+	text-align: center;
+}
+
+h4 {
+	margin: 5px 0;
+}
+
+body {
+	font-family: sans-serif;
+}

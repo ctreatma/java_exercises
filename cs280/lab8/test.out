@@ -1,0 +1,2189 @@
+Net Debug: resolving server ip
+Net Debug: opening server socket
+Net Debug: server successfully created
+Net Debug: ServerNetIO::thread_func() called
+Server Debug: CreateThread called: 
+Server Debug: thread_func() called on: 0xbffff4f0
+Net Debug: socket to localhost:20354 created
+Net Debug: polling localhost:20354 for data
+Net Debug: received: QRS:
+Message Debug: RuleSetQuery::accept called on:0x8083010
+Server Debug: RuleSetQuery handler: QRS:
+Message Debug: RuleSetResponse::accept called on:0x8083040
+IO Debug: (this=0xbffff480) RuleSetResponse handler: RRS:E 7 4 10 60000 60000
+Net Debug: polling localhost:20354 for data
+Net Debug: received: QRS:
+Message Debug: RuleSetQuery::accept called on:0x8083010
+Server Debug: RuleSetQuery handler: QRS:
+Message Debug: RuleSetResponse::accept called on:0x8083040
+IO Debug: (this=0xbffff480) RuleSetResponse handler: RRS:E 7 4 10 60000 60000
+Net Debug: polling localhost:20354 for data
+Net Debug: received: CONP1:Ben
+Message Debug: ConnectPlayer1Message::accept called on:0x8083010
+Server Debug: ConnectPlayer1Message handler: CONP1:Ben
+Message Debug: ConnectPlayer1Message::accept called on:0x8083040
+IO Debug: (this=0xbffff480) ConnectPlayer1Message handler: CONP1:Ben
+Net Debug: polling localhost:20354 for data
+Net Debug: received: CONP2:Pit
+Message Debug: ConnectPlayer2Message::accept called on:0x8083010
+Server Debug: ConnectPlayer2Message handler: CONP2:Pit
+Message Debug: ConnectPlayer2Message::accept called on:0x8081150
+IO Debug: (this=0xbffff480) ConnectPlayer2Message handler: CONP2:Pit
+Server Debug: sendAll: GAMESTART:
+Message Debug: GameStartMessage::accept called on:0x8081150
+Net Debug: ServerNetIO::handleMessage() called on GAMESTART:
+Net Debug: sending message to localhost:20354
+Net Debug: message sent properly
+Server Debug: sendAll: P1MREQ:
+Message Debug: Player1MoveRequestMessage::accept called on:0x8081150
+Net Debug: ServerNetIO::handleMessage() called on P1MREQ:
+Net Debug: sending message to localhost:20354
+Net Debug: message sent properly
+Net Debug: polling localhost:20354 for data
+Net Debug: received: QRS:
+Message Debug: RuleSetQuery::accept called on:0x8083010
+Server Debug: RuleSetQuery handler: QRS:
+Message Debug: RuleSetResponse::accept called on:0x8083040
+IO Debug: (this=0xbffff480) RuleSetResponse handler: RRS:E 7 4 10 60000 60000Net Debug: polling localhost:20354 for data
+Net Debug: received: QRS:
+
+Message Debug: RuleSetQuery::accept called on:0x8083050
+Server Debug: RuleSetQuery handler: QRS:
+Message Debug: RuleSetResponse::accept called on:0x8083010
+IO Debug: (this=0xbffff480) RuleSetResponse handler: RRS:E 7 4 10 60000 60000
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error
+Net Debug: polling localhost:20354 for data
+Net Debug: no data or network error

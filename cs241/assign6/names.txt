@@ -1,0 +1,378 @@
+Fir
+Abies
+14
+Grand Fir
+Abies grandis
+3922
+Maple
+Acer
+4675
+Trident Maple
+Acer buergerianum
+5516
+European Field Maple
+Acer campestre
+0
+Amur Maple
+Acer ginnala
+5605
+Paperbark Maple
+Acer griseum
+0
+Japanese Maple
+Acer palmatum
+0
+Red Japanese Maple
+Acer palmatum, 'Atropurpureum'
+0
+Coral Bark Japanese Maple
+Acer palmatum, 'Beni Kawa'
+0
+Birch
+Betula
+5861
+Dwarf Arctic Birch
+Betula nana
+0
+Paper Birch
+Betula papyrifera
+6274
+Buxus
+Boxwood
+0
+Dwarf Kingsville Boxwood
+Buxus microphylla, cv. Compacta
+0
+Japanese Boxwood
+Buxus japonica
+0
+Hornbeam
+Carpinus
+7603
+European Hornbeam
+Carpinus betulus
+0
+Korean Hornbeam
+Carpinus koreana
+0
+Whitehair Hornbeam
+Carpinus tschonoskii
+0
+Japanese Loose-flowered Hornbeam
+Carpinus laxiflora
+0
+Red-leafed Hornbeam
+Carpinus laxiflora
+0
+False Cypress
+Chamaecyparis
+8478
+Dwarf Hinoki Cypress
+Chamaecyparis obtusa, cv "Nana Aurea"
+0
+Sawara Cypress
+Chamaecyparis pisifera
+10012
+Moss Cypress
+Chamaecyparis pisifera, cv. Plumosa Compressa
+0
+Blue Sawara Cypress
+Chamaecyparis pisifera, cv. 'Boulevard'
+0
+White Cedar
+Chamaecyparis thyoides
+10510
+Dwarf White Cypress
+Chamaecyparis thyoides, cv. 'Andelyensis'
+11059
+Plum Cedar
+Chamaecyparis thyoides, cv. 'Ericoides'
+0
+Lawson Cypress or Port Orford Cedar.
+Chamaecyparis Lawsoniana
+11633
+Cedars
+Cedrus
+13062
+Atlas Cedar
+Cedrus atlantica
+0
+Hackberry
+Celtis
+14336
+Chinese Hackberry
+Celtis sinensis
+0
+Sugarberry
+Celtis laevigata
+0
+Flowering Quince
+Chaenomeles sp.
+15048
+Quince
+Chaenomeles sp. "Rowallane"
+16138
+California Hazelnut
+Corylus cornuta var. californica
+16222
+Cotoneaster
+Cotoneaster
+0
+Varigated Cotoneaster
+Cotoneaster horizontalis cv. varigatae
+0
+Rockspray Cotoneaster
+Cotoneaster microphyllus:
+0
+Thyme-leaf Cotoneaster
+Cotoneaster microphyllus, cv. Thymifolius
+0
+Hawthorn
+Crataegus
+17012
+Washington Thorn
+Crataegus phenopyrum
+17879
+Cypress
+Cupressus
+19391
+Monterey Cypress
+Cupressus macrocarpa
+0
+Beech
+Fagus
+0
+European Beech
+Fagus sylvatica
+0
+Fig
+Ficus
+0
+Weeping Fig
+Ficus benjamina
+0
+Ginko
+Ginko biloba
+0
+Maidenhair Tree
+Ginko biloba
+20535
+Juniper
+Juniperus
+20968
+Blue Chip Juniper
+Juniperus horizontalis, cv "Blue Chip"
+0
+Larch
+Larix
+21524
+Japanese Larch
+Larix kaempferi (Larix leptolepsis)
+0
+Sweetgum
+Liquidambar
+0
+Oriental Sweetgum
+Liquidambar orientalis
+23372
+Apple
+Malus sylvestris
+23626
+Sargent's Crabapple
+Malus sargentii
+0
+Crabapple
+Malus sp.
+0
+Olive
+Olea
+0
+Hophornbeam
+Ostrya
+0
+European Hophornbeam
+Ostrya carpinifoia
+0
+Quince
+Pseudocydonia
+0
+Chinese Quince
+Pseudocydonia sinensis
+0
+Spruce
+Picea
+24900
+Hondo Ezo Spruce
+Picea jezoensis hondoensis
+0
+Sitka Spruce 
+Picea sitchensis
+28538
+Pines
+Pinus
+29405
+Border White Pine
+Pinus strobiformis
+36868
+Japanese Black Pine
+Pinus thunbergii
+37713
+Japanese White Pine
+Pinus parviflora
+37891
+Jeffrey Pine
+Pinus Jeffreyi
+37967
+Golden Larch
+Pseudolarix kaempferi (Pseudolarix leptolepsis)
+38272
+Bamboo
+Plioblastus
+0
+Varigated Bamboo
+Plioblastus varigatus
+0
+Podocarpus
+Podocarpus macrophylla
+38528
+Firethorn
+Pyracantha sp.
+0
+Navajo Firethorn
+Pyracantha sp. "Navajo"
+0
+Oak
+Quercus
+39162
+English Oak
+Quercus robur
+0
+California Coast Live Oak
+Quercus agrifolia
+39487
+California Scrub Oak
+Quercus dumosa
+0
+Valley Oak
+Quercus lobata
+39779
+California Interior Live Oak
+Quercus wislizenii
+39961
+Cork Oak
+Quercus suber
+0
+California Canyon Live Oak
+Quercus chrysolepsis
+0
+Gold Cup Oak
+Quercus chrysolepsis
+40333
+Holly Oak
+Quercus ilex
+0
+Oregon Oak
+Quercus garryana
+40668
+Satsuki Azaleas
+Rhododendron indicum
+0
+Chinsan Azalea
+Rhododendron indicum cv. Chinsan,
+0
+Juko Azalea
+Rhododendron indicum cv. Juko.
+0
+Willow
+Salix
+40869
+Pink Tassel Willow
+Salix myrtilloides "Pink Tassels"
+0
+Alpine Willow
+Salix yezoalpina
+0
+Dwarf Weeping Willow
+Salix babylonica "Yatsubusa"
+41770
+Sequoia
+Sequoia
+0
+Redwood
+Sequoia
+42471
+California Coast Redwood
+Sequoia sempervirens
+0
+Dawn Redwood
+Metasequoia glyptostroboides
+43817
+Tamarix
+Tamarix pentandra "Summer Cloud"
+0
+Yew Cypress
+Taxodium
+45358
+Bald Cypress
+Taxodium distichum
+45656
+Montezuma Cypress
+Taxodium mucronatum
+45937
+Yew
+Taxus
+46131
+Japanese Yew
+Taxus cuspidata
+0
+American Yew
+Taxus canadensis
+0
+Canada Yew
+Taxus canadensis
+48398
+California Nutmeg
+Torreya californica
+48850
+Hemlock
+Tsuga
+49288
+Canadian Hemlock
+Tsuga canadensis
+0
+Western Hemlock
+Tsuga heterophylla
+50395
+Mountain Hemlock
+Tsuga mertensiana
+51373
+Guava
+Ugni
+0
+Chilean Guava
+Ugni molinae
+0
+Elm
+Ulmus
+52066
+Chinese Elm
+Ulmus parvifolia cv. Hokkaido
+52401
+Hokkaido Elm
+Ulmus parvifolia cv. Hokkaido
+0
+Seiju Elm
+Ulmus parvifolia cv. Seiju
+0
+Huckleberry
+Vaccinium ovatum
+52893
+Zelkova
+Zelkova
+0
+Hornbeam-leaf Zelkova
+Zelkova carpinifolia
+0
+Chinese Zelkova
+Zelkova sinica
+0

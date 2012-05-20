@@ -1,0 +1,45 @@
+insert into student values ('T00032696', 'Ben', 'Pierce', '4407744174', 2817,
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CTREATMA.SYS_C0015373) violated 
+
+
+update student
+*
+ERROR at line 1:
+ORA-00001: unique constraint (CTREATMA.SYS_C0015373) violated 
+
+
+insert into rents values ('101 Main Street', 'T00032696')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CTREATMA.SYS_C0015376) violated - parent key 
+not found 
+
+
+delete from landlord
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (CTREATMA.SYS_C0015367) violated - child record 
+found 
+
+
+update rents
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (CTREATMA.SYS_C0015376) violated - parent key 
+not found 
+
+
+insert into compatible values ('T00032696', 'T00032696')
+*
+ERROR at line 1:
+ORA-02290: check constraint (CTREATMA.SYS_C0015378) violated 
+
+
+update student
+*
+ERROR at line 1:
+ORA-02290: check constraint (CTREATMA.SYS_C0015372) violated 
+
+

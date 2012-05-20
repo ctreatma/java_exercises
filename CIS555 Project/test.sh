@@ -1,0 +1,1 @@
+java -cp target/lib/cis-555test.jar:target/WEB-INF/lib/cis-555.jar:target/lib/junit-4.7.jar:target/WEB-INF/lib/FreePastry-2.1.zip:target/WEB-INF/lib/hadoop-0.20.2-core.jar:target/WEB-INF/lib/htmlparser.jar:target/WEB-INF/lib/je-4.0.92.jar:target/WEB-INF/lib/servlet-api.jar junit.textui.TestRunner edu.upenn.cis555.mustang.TestHarness

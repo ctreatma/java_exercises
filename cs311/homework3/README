@@ -1,0 +1,4 @@
+Charles Treatman
+README
+
+The files in this directory are numbered in the order in which they must be loaded.  The file "drop.sql" can be executed to drop all applicable tables at the end of a session.

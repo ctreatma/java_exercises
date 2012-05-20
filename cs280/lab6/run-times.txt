@@ -1,0 +1,26 @@
+Charles Treatman ctreatma
+run-times.txt
+
+mst-timing list sparse Kruskal 20000
+0.27 s
+
+mst-timing list sparse KruskalSlow 20000
+19.68 s
+
+mst-timing list sparse Prim 20000
+0.23 s
+
+mst-timing list sparse PrimSlow 20000
+41.04 s
+
+mst-timing matrix complete Kruskal 5000
+23.88 s
+
+mst-timing matrix complete KruskalSlow 5000
+20.9 s
+
+mst-timing matrix complete Prim 5000
+14.7 s
+
+mst-timing matrix complete PrimSlow 5000
+17.84 s

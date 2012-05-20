@@ -1,0 +1,19 @@
+Charles Treatman ctreatma
+mem_limit.txt
+
+occs% graph_gen 1 0 288 out.txt
+Segmentation Fault
+occs% graph_gen 0 0 232 out.txt
+Segmentation Fault
+occs% graph_gen 0 1 409 out.txt
+Segmentation Fault
+occs% graph_gen 1 1 1352 out.txt
+Segmentation Fault
+
+The limit for a complete list graph is 287 nodes.
+
+The limit for a sparse list graph is 1351 nodes.
+
+The limit for a complete matrix graph is 231 nodes.
+
+The limit for a sparse matrix graph is 408 nodes.

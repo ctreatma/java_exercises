@@ -1,0 +1,26 @@
+(require "coroutine.ss")
+
+(define foo
+  (coroutine
+   (lambda (m)
+     (begin (printf "foo: ~a~n" m) (if (<= m 100) (foo (goo (+ m 2))))))))
+ 
+(define goo
+  (coroutine
+   (lambda (n)
+     (begin (printf "goo: ~a~n" n) (goo (foo (- n 1)))))))
+
+;x^2 + 2x + 1
+  
+(define sqfoo
+  (coroutine
+   (lambda (m)
+     (begin (printf "sqfoo: ~a~n" m) (if (<= m 50)
+                                         (sqfoo (sqgoo m)))))))
+ 
+(define sqgoo
+  (coroutine
+   (lambda (n)
+     (begin (if (<= n 1) (printf "sqgoo: ~a~n" n)
+                (printf "sqgoo: ~a~n" (+ (sub1 n) (* 2 (sub1 n)) 1)))
+                (sqgoo (sqfoo (+ n 1)))))))

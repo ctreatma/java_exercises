@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+  <property>
+    <name>dampingFactor</name>
+    <value>0.85</value>
+    <description>
+        The damping factor to be used in PageRank calculations
+    </description>        
+  </property>
+  
+  <property>
+    <name>epsilon</name>
+    <value>1E-3</value>
+    <description>
+        When the change in PageRank is less than epsilon for all pages, the PageRank job will finish.
+    </description>        
+  </property>
+  
+  <property>
+    <name>sigDigits</name>
+    <value>3</value>
+    <description>
+        The number of significant digits to return for the PageRanks.  Should probably equal the
+        negative exponent of epsilon.  E.g., for epsilon = 1E-10, sigDigits = 10.
+    </description>        
+  </property>
+  
+  <!-- <property>
+    <name>dataStoreUrl</name>
+    <value>http://localhost:8092</value>
+    <description>
+        The url to the gateway node on the Pastry ring.
+    </description>        
+  </property> -->
+  
+  <property>
+    <name>inputPath</name>
+    <value>/tmp/in</value>
+    <description>
+        The path to use for input on the DFS
+    </description>        
+  </property>
+  
+  <property>
+    <name>outputPath</name>
+    <value>/tmp/out</value>
+    <description>
+        The path to use for output on the DFS
+    </description>        
+  </property>
+  
+  <property>
+    <name>convergedPath</name>
+    <value>/tmp/conv</value>
+    <description>
+        The path to use for checking convergence on the DFS
+    </description>        
+  </property>
+</configuration>

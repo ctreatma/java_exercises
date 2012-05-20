@@ -1,0 +1,37 @@
+8
+
+dir
+136
+svn+ssh://ctreatma@eniac.seas.upenn.edu/home1/c/ctreatma/db550qproj/db550proj/Proj550/WebContent
+svn+ssh://ctreatma@eniac.seas.upenn.edu/home1/c/ctreatma/db550qproj/db550proj
+
+
+
+2008-12-11T02:19:47.050464Z
+136
+ctreatma
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c0239100-a114-11dd-8ed3-9f39dbdbbbf1
+
+META-INF
+dir
+
+WEB-INF
+dir
+
+project550
+dir
+

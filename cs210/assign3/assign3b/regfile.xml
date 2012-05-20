@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuit [
+<!ELEMENT circuit
+        (circuit*,
+	(and|andthree|or|orthree|xor|neg|nand|nor|switch|bulb|label|zero|one|jk|led|clock|nib|wire|abscircuit)*)>
+<!ATTLIST circuit
+        name CDATA #REQUIRED>
+<!ELEMENT and (coords?, parent-of*)>
+<!ATTLIST and
+        id CDATA #REQUIRED>
+<!ELEMENT andthree (coords?, parent-of*)>
+<!ATTLIST andthree
+        id CDATA #REQUIRED>
+<!ELEMENT or (coords?, parent-of*)>
+<!ATTLIST or
+        id CDATA #REQUIRED>
+<!ELEMENT orthree (coords?, parent-of*)>
+<!ATTLIST orthree
+        id CDATA #REQUIRED>
+<!ELEMENT xor (coords?, parent-of*)>
+<!ATTLIST xor
+        id CDATA #REQUIRED>
+<!ELEMENT neg (coords?, parent-of*)>
+<!ATTLIST neg
+        id CDATA #REQUIRED>
+<!ELEMENT nand (coords?, parent-of*)>
+<!ATTLIST nand
+        id CDATA #REQUIRED>
+<!ELEMENT nor (coords?, parent-of*)>
+<!ATTLIST nor
+        id CDATA #REQUIRED>
+<!ELEMENT jk (coords?, parent-of*)>
+<!ATTLIST jk
+        id CDATA #REQUIRED>
+<!ELEMENT led (coords?, parent-of*)>
+<!ATTLIST led
+        id CDATA #REQUIRED>
+<!ELEMENT zero (coords?, parent-of*)>
+<!ATTLIST zero
+        id CDATA #REQUIRED>
+<!ELEMENT one (coords?, parent-of*)>
+<!ATTLIST one
+        id CDATA #REQUIRED>
+<!ELEMENT switch (coords?, parent-of*)>
+<!ATTLIST switch
+        id CDATA #REQUIRED
+        number CDATA #REQUIRED
+	label CDATA #IMPLIED>
+<!ELEMENT bulb (coords?, parent-of*)>
+<!ATTLIST bulb
+        id CDATA #REQUIRED
+        number CDATA #REQUIRED
+	label CDATA #IMPLIED>
+<!ELEMENT label (coords?, parent-of*, text)>
+<!ATTLIST label
+        id CDATA #REQUIRED
+	size CDATA #REQUIRED
+	style CDATA #REQUIRED
+	color CDATA #REQUIRED>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT clock (coords?, parent-of*)>
+<!ATTLIST clock
+        id CDATA #REQUIRED
+	speed CDATA #REQUIRED>
+<!ELEMENT nib (coords?, parent-of*)>
+<!ATTLIST nib
+        id CDATA #REQUIRED>
+<!ELEMENT wire (coords?, parent-of*)>
+<!ATTLIST wire
+        id CDATA #REQUIRED
+	direction CDATA #REQUIRED>
+<!ELEMENT abscircuit (coords?, parent-of*)>
+<!ATTLIST abscircuit
+        id CDATA #REQUIRED
+	base CDATA #REQUIRED>
+<!ELEMENT coords EMPTY>
+<!ATTLIST coords
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED>
+<!ELEMENT parent-of (#PCDATA)>
+<!ATTLIST parent-of
+        pindex CDATA #REQUIRED
+        cindex CDATA #REQUIRED>]>
+<circuit name="regfile">
+   <circuit name="fullreg">
+      <circuit name="lineselector">
+         <switch id="lineselector:Switch0" number="0" label="r0">
+            <coords x="195" y="10"/>
+            <parent-of pindex="0" cindex="0">lineselector:Wire5</parent-of>
+         </switch>
+         <switch id="lineselector:Switch1" number="1" label="r1">
+            <coords x="178" y="483"/>
+            <parent-of pindex="0" cindex="0">lineselector:Wire1</parent-of>
+         </switch>
+         <and id="lineselector:And1">
+            <coords x="451" y="25"/>
+            <parent-of pindex="2" cindex="0">lineselector:Bulb2</parent-of>
+         </and>
+         <and id="lineselector:And2">
+            <coords x="459" y="191"/>
+            <parent-of pindex="2" cindex="0">lineselector:Bulb3</parent-of>
+         </and>
+         <and id="lineselector:And3">
+            <coords x="460" y="316"/>
+            <parent-of pindex="2" cindex="0">lineselector:Bulb4</parent-of>
+         </and>
+         <and id="lineselector:And4">
+            <coords x="469" y="466"/>
+            <parent-of pindex="2" cindex="0">lineselector:Bulb5</parent-of>
+         </and>
+         <bulb id="lineselector:Bulb2" number="2">
+            <coords x="579" y="25"/>
+         </bulb>
+         <bulb id="lineselector:Bulb3" number="3">
+            <coords x="594" y="191"/>
+         </bulb>
+         <bulb id="lineselector:Bulb4" number="4">
+            <coords x="598" y="316"/>
+         </bulb>
+         <bulb id="lineselector:Bulb5" number="5">
+            <coords x="587" y="466"/>
+         </bulb>
+         <wire id="lineselector:Wire1" direction="right">
+            <coords x="343" y="498"/>
+            <parent-of pindex="2" cindex="1">lineselector:And4</parent-of>
+            <parent-of pindex="1" cindex="0">lineselector:Wire2</parent-of>
+         </wire>
+         <wire id="lineselector:Wire2" direction="right">
+            <coords x="358" y="357"/>
+            <parent-of pindex="1" cindex="0">lineselector:Wire3</parent-of>
+            <parent-of pindex="2" cindex="0">lineselector:Not1</parent-of>
+         </wire>
+         <wire id="lineselector:Wire3" direction="right">
+            <coords x="373" y="221"/>
+            <parent-of pindex="2" cindex="1">lineselector:And2</parent-of>
+            <parent-of pindex="1" cindex="0">lineselector:Wire4</parent-of>
+         </wire>
+         <wire id="lineselector:Wire4" direction="right">
+            <coords x="387" y="81"/>
+            <parent-of pindex="2" cindex="0">lineselector:Not2</parent-of>
+         </wire>
+         <neg id="lineselector:Not1">
+            <coords x="413" y="342"/>
+            <parent-of pindex="1" cindex="1">lineselector:And3</parent-of>
+         </neg>
+         <neg id="lineselector:Not2">
+            <coords x="414" y="66"/>
+            <parent-of pindex="1" cindex="1">lineselector:And1</parent-of>
+         </neg>
+         <neg id="lineselector:Not3">
+            <coords x="401" y="-2"/>
+            <parent-of pindex="1" cindex="0">lineselector:And1</parent-of>
+         </neg>
+         <wire id="lineselector:Wire5" direction="right">
+            <coords x="295" y="13"/>
+            <parent-of pindex="2" cindex="0">lineselector:Not3</parent-of>
+            <parent-of pindex="1" cindex="0">lineselector:Wire6</parent-of>
+         </wire>
+         <wire id="lineselector:Wire6" direction="right">
+            <coords x="310" y="185"/>
+            <parent-of pindex="2" cindex="0">lineselector:Not4</parent-of>
+            <parent-of pindex="1" cindex="0">lineselector:Wire7</parent-of>
+         </wire>
+         <wire id="lineselector:Wire7" direction="right">
+            <coords x="325" y="330"/>
+            <parent-of pindex="2" cindex="0">lineselector:And3</parent-of>
+            <parent-of pindex="1" cindex="0">lineselector:Wire8</parent-of>
+         </wire>
+         <wire id="lineselector:Wire8" direction="right">
+            <coords x="340" y="474"/>
+            <parent-of pindex="2" cindex="0">lineselector:And4</parent-of>
+         </wire>
+         <neg id="lineselector:Not4">
+            <coords x="406" y="170"/>
+            <parent-of pindex="1" cindex="0">lineselector:And2</parent-of>
+         </neg>
+      </circuit>
+      <circuit name="partialreg">
+         <circuit name="4bit">
+            <circuit name="D">
+               <jk id="D:JK1">
+                  <coords x="225" y="45"/>
+                  <parent-of pindex="4" cindex="0">D:Bulb3</parent-of>
+                  <parent-of pindex="3" cindex="0">D:Switch2</parent-of>
+               </jk>
+               <switch id="D:Switch0" number="0" label="D">
+                  <coords x="60" y="10"/>
+               </switch>
+               <wire id="D:Wire2" direction="right">
+                  <coords x="135" y="25"/>
+                  <parent-of pindex="2" cindex="0">D:JK1</parent-of>
+                  <parent-of pindex="0" cindex="0">D:Switch0</parent-of>
+               </wire>
+               <neg id="D:Not1">
+                  <coords x="150" y="50"/>
+                  <parent-of pindex="1" cindex="1">D:JK1</parent-of>
+                  <parent-of pindex="0" cindex="1">D:Wire2</parent-of>
+               </neg>
+               <switch id="D:Switch1" number="1" label="&gt;">
+                  <coords x="60" y="75"/>
+                  <parent-of pindex="0" cindex="2">D:JK1</parent-of>
+               </switch>
+               <switch id="D:Switch2" number="2" label="Cl">
+                  <coords x="60" y="115"/>
+               </switch>
+               <bulb id="D:Bulb3" number="3" label="Q">
+                  <coords x="380" y="50"/>
+               </bulb>
+               <bulb id="D:Bulb4" number="4" label="~Q">
+                  <coords x="380" y="80"/>
+                  <parent-of pindex="0" cindex="5">D:JK1</parent-of>
+               </bulb>
+            </circuit>
+            <switch id="4bit:Switch0" number="0" label="i0">
+               <coords x="292" y="62"/>
+               <parent-of pindex="0" cindex="0">4bit:D1</parent-of>
+            </switch>
+            <switch id="4bit:Switch1" number="1" label="i1">
+               <coords x="294" y="164"/>
+               <parent-of pindex="0" cindex="0">4bit:D2</parent-of>
+            </switch>
+            <switch id="4bit:Switch2" number="2" label="i2">
+               <coords x="295" y="288"/>
+               <parent-of pindex="0" cindex="0">4bit:D3</parent-of>
+            </switch>
+            <switch id="4bit:Switch3" number="3" label="i3">
+               <coords x="299" y="387"/>
+               <parent-of pindex="0" cindex="0">4bit:D4</parent-of>
+            </switch>
+            <switch id="4bit:Switch4" number="4" label="&gt;">
+               <coords x="286" y="459"/>
+               <parent-of pindex="0" cindex="0">4bit:Wire4</parent-of>
+            </switch>
+            <switch id="4bit:Switch5" number="5" label="Cl">
+               <coords x="309" y="499"/>
+               <parent-of pindex="0" cindex="0">4bit:Wire8</parent-of>
+            </switch>
+            <bulb id="4bit:Bulb6" number="6" label="o0">
+               <coords x="746" y="61"/>
+            </bulb>
+            <bulb id="4bit:Bulb7" number="7" label="o1">
+               <coords x="784" y="162"/>
+            </bulb>
+            <bulb id="4bit:Bulb8" number="8" label="o2">
+               <coords x="795" y="280"/>
+            </bulb>
+            <bulb id="4bit:Bulb9" number="9" label="o3">
+               <coords x="797" y="384"/>
+            </bulb>
+            <abscircuit id="4bit:D1" base="D">
+               <coords x="470" y="76"/>
+               <parent-of pindex="3" cindex="0">4bit:Bulb6</parent-of>
+            </abscircuit>
+            <abscircuit id="4bit:D2" base="D">
+               <coords x="470" y="177"/>
+               <parent-of pindex="3" cindex="0">4bit:Bulb7</parent-of>
+            </abscircuit>
+            <abscircuit id="4bit:D3" base="D">
+               <coords x="468" y="302"/>
+               <parent-of pindex="3" cindex="0">4bit:Bulb8</parent-of>
+            </abscircuit>
+            <abscircuit id="4bit:D4" base="D">
+               <coords x="469" y="401"/>
+               <parent-of pindex="3" cindex="0">4bit:Bulb9</parent-of>
+            </abscircuit>
+            <wire id="4bit:Wire1" direction="right">
+               <coords x="393" y="89"/>
+               <parent-of pindex="2" cindex="1">4bit:D1</parent-of>
+            </wire>
+            <wire id="4bit:Wire2" direction="right">
+               <coords x="379" y="191"/>
+               <parent-of pindex="2" cindex="1">4bit:D2</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire1</parent-of>
+            </wire>
+            <wire id="4bit:Wire3" direction="right">
+               <coords x="365" y="318"/>
+               <parent-of pindex="2" cindex="1">4bit:D3</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire2</parent-of>
+            </wire>
+            <wire id="4bit:Wire4" direction="right">
+               <coords x="352" y="414"/>
+               <parent-of pindex="2" cindex="1">4bit:D4</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire3</parent-of>
+            </wire>
+            <wire id="4bit:Wire5" direction="right">
+               <coords x="418" y="101"/>
+               <parent-of pindex="2" cindex="2">4bit:D1</parent-of>
+            </wire>
+            <wire id="4bit:Wire6" direction="right">
+               <coords x="400" y="202"/>
+               <parent-of pindex="2" cindex="2">4bit:D2</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire5</parent-of>
+            </wire>
+            <wire id="4bit:Wire7" direction="right">
+               <coords x="383" y="332"/>
+               <parent-of pindex="2" cindex="2">4bit:D3</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire6</parent-of>
+            </wire>
+            <wire id="4bit:Wire8" direction="right">
+               <coords x="369" y="429"/>
+               <parent-of pindex="2" cindex="2">4bit:D4</parent-of>
+               <parent-of pindex="1" cindex="0">4bit:Wire7</parent-of>
+            </wire>
+         </circuit>
+         <abscircuit id="partialreg:4bit1" base="4bit">
+            <coords x="765" y="37"/>
+            <parent-of pindex="6" cindex="0">partialreg:Bulb9</parent-of>
+            <parent-of pindex="7" cindex="0">partialreg:Bulb10</parent-of>
+            <parent-of pindex="8" cindex="0">partialreg:Bulb11</parent-of>
+            <parent-of pindex="9" cindex="0">partialreg:Bulb12</parent-of>
+         </abscircuit>
+         <abscircuit id="partialreg:lineselector2" base="lineselector">
+            <coords x="95" y="301"/>
+            <parent-of pindex="2" cindex="0">partialreg:Wire25</parent-of>
+            <parent-of pindex="3" cindex="0">partialreg:Wire28</parent-of>
+            <parent-of pindex="4" cindex="0">partialreg:Wire31</parent-of>
+            <parent-of pindex="5" cindex="0">partialreg:Wire33</parent-of>
+         </abscircuit>
+         <abscircuit id="partialreg:4bit3" base="4bit">
+            <coords x="762" y="168"/>
+            <parent-of pindex="6" cindex="0">partialreg:Bulb13</parent-of>
+            <parent-of pindex="7" cindex="0">partialreg:Bulb14</parent-of>
+            <parent-of pindex="8" cindex="0">partialreg:Bulb15</parent-of>
+            <parent-of pindex="9" cindex="0">partialreg:Bulb16</parent-of>
+         </abscircuit>
+         <abscircuit id="partialreg:4bit4" base="4bit">
+            <coords x="762" y="260"/>
+            <parent-of pindex="6" cindex="0">partialreg:Bulb17</parent-of>
+            <parent-of pindex="7" cindex="0">partialreg:Bulb18</parent-of>
+            <parent-of pindex="8" cindex="0">partialreg:Bulb19</parent-of>
+            <parent-of pindex="9" cindex="0">partialreg:Bulb20</parent-of>
+         </abscircuit>
+         <abscircuit id="partialreg:4bit5" base="4bit">
+            <coords x="762" y="352"/>
+            <parent-of pindex="6" cindex="0">partialreg:Bulb21</parent-of>
+            <parent-of pindex="7" cindex="0">partialreg:Bulb22</parent-of>
+            <parent-of pindex="8" cindex="0">partialreg:Bulb23</parent-of>
+            <parent-of pindex="9" cindex="0">partialreg:Bulb24</parent-of>
+         </abscircuit>
+         <switch id="partialreg:Switch0" number="0" label="r0">
+            <coords x="30" y="269"/>
+            <parent-of pindex="0" cindex="0">partialreg:lineselector2</parent-of>
+         </switch>
+         <switch id="partialreg:Switch1" number="1" label="r1">
+            <coords x="30" y="345"/>
+            <parent-of pindex="0" cindex="1">partialreg:lineselector2</parent-of>
+         </switch>
+         <switch id="partialreg:Switch2" number="2" label="d0">
+            <coords x="4" y="0"/>
+            <parent-of pindex="0" cindex="0">partialreg:Wire1</parent-of>
+         </switch>
+         <switch id="partialreg:Switch3" number="3" label="d1">
+            <coords x="33" y="21"/>
+            <parent-of pindex="0" cindex="0">partialreg:Wire13</parent-of>
+         </switch>
+         <switch id="partialreg:Switch4" number="4" label="d2">
+            <coords x="65" y="49"/>
+         </switch>
+         <switch id="partialreg:Switch5" number="5" label="d3">
+            <coords x="103" y="82"/>
+         </switch>
+         <wire id="partialreg:Wire1" direction="right">
+            <coords x="643" y="38"/>
+            <parent-of pindex="2" cindex="0">partialreg:4bit1</parent-of>
+         </wire>
+         <wire id="partialreg:Wire2" direction="right">
+            <coords x="658" y="169"/>
+            <parent-of pindex="2" cindex="0">partialreg:4bit3</parent-of>
+            <parent-of pindex="0" cindex="1">partialreg:Wire1</parent-of>
+         </wire>
+         <wire id="partialreg:Wire3" direction="right">
+            <coords x="673" y="262"/>
+            <parent-of pindex="2" cindex="0">partialreg:4bit4</parent-of>
+            <parent-of pindex="0" cindex="1">partialreg:Wire2</parent-of>
+         </wire>
+         <wire id="partialreg:Wire4" direction="right">
+            <coords x="689" y="353"/>
+            <parent-of pindex="2" cindex="0">partialreg:4bit5</parent-of>
+            <parent-of pindex="0" cindex="1">partialreg:Wire3</parent-of>
+         </wire>
+         <wire id="partialreg:Wire5" direction="right">
+            <coords x="608" y="69"/>
+            <parent-of pindex="2" cindex="3">partialreg:4bit1</parent-of>
+            <parent-of pindex="0" cindex="0">partialreg:Switch5</parent-of>
+         </wire>
+         <wire id="partialreg:Wire6" direction="right">
+            <coords x="636" y="189"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire5</parent-of>
+            <parent-of pindex="2" cindex="3">partialreg:4bit3</parent-of>
+         </wire>
+         <wire id="partialreg:Wire7" direction="right">
+            <coords x="652" y="283"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire6</parent-of>
+            <parent-of pindex="2" cindex="3">partialreg:4bit4</parent-of>
+         </wire>
+         <wire id="partialreg:Wire8" direction="right">
+            <coords x="668" y="383"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire7</parent-of>
+            <parent-of pindex="2" cindex="3">partialreg:4bit5</parent-of>
+         </wire>
+         <wire id="partialreg:Wire9" direction="right">
+            <coords x="621" y="60"/>
+            <parent-of pindex="2" cindex="2">partialreg:4bit1</parent-of>
+            <parent-of pindex="0" cindex="0">partialreg:Switch4</parent-of>
+         </wire>
+         <wire id="partialreg:Wire10" direction="right">
+            <coords x="643" y="180"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire9</parent-of>
+            <parent-of pindex="2" cindex="2">partialreg:4bit3</parent-of>
+         </wire>
+         <wire id="partialreg:Wire11" direction="right">
+            <coords x="660" y="276"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire10</parent-of>
+            <parent-of pindex="2" cindex="2">partialreg:4bit4</parent-of>
+         </wire>
+         <wire id="partialreg:Wire12" direction="right">
+            <coords x="676" y="373"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire11</parent-of>
+            <parent-of pindex="2" cindex="2">partialreg:4bit5</parent-of>
+         </wire>
+         <wire id="partialreg:Wire13" direction="right">
+            <coords x="632" y="49"/>
+            <parent-of pindex="2" cindex="1">partialreg:4bit1</parent-of>
+         </wire>
+         <wire id="partialreg:Wire14" direction="right">
+            <coords x="650" y="177"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire13</parent-of>
+            <parent-of pindex="2" cindex="1">partialreg:4bit3</parent-of>
+         </wire>
+         <wire id="partialreg:Wire15" direction="right">
+            <coords x="666" y="269"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire14</parent-of>
+            <parent-of pindex="2" cindex="1">partialreg:4bit4</parent-of>
+         </wire>
+         <wire id="partialreg:Wire16" direction="right">
+            <coords x="681" y="364"/>
+            <parent-of pindex="0" cindex="1">partialreg:Wire15</parent-of>
+            <parent-of pindex="2" cindex="1">partialreg:4bit5</parent-of>
+         </wire>
+         <andthree id="partialreg:Andthree1">
+            <coords x="420" y="126"/>
+            <parent-of pindex="3" cindex="4">partialreg:4bit1</parent-of>
+         </andthree>
+         <andthree id="partialreg:Andthree2">
+            <coords x="420" y="209"/>
+            <parent-of pindex="3" cindex="4">partialreg:4bit3</parent-of>
+         </andthree>
+         <andthree id="partialreg:Andthree3">
+            <coords x="413" y="311"/>
+            <parent-of pindex="3" cindex="4">partialreg:4bit4</parent-of>
+         </andthree>
+         <andthree id="partialreg:Andthree4">
+            <coords x="423" y="413"/>
+            <parent-of pindex="3" cindex="4">partialreg:4bit5</parent-of>
+         </andthree>
+         <switch id="partialreg:Switch6" number="6" label="WR">
+            <coords x="131" y="116"/>
+            <parent-of pindex="0" cindex="0">partialreg:Wire21</parent-of>
+         </switch>
+         <switch id="partialreg:Switch7" number="7" label="Cl">
+            <coords x="359" y="520"/>
+            <parent-of pindex="0" cindex="0">partialreg:Wire36</parent-of>
+         </switch>
+         <switch id="partialreg:Switch8" number="8" label="&gt;">
+            <coords x="172" y="478"/>
+            <parent-of pindex="0" cindex="0">partialreg:Wire17</parent-of>
+         </switch>
+         <wire id="partialreg:Wire17" direction="right">
+            <coords x="328" y="438"/>
+            <parent-of pindex="2" cindex="2">partialreg:Andthree4</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire18</parent-of>
+         </wire>
+         <wire id="partialreg:Wire18" direction="right">
+            <coords x="343" y="336"/>
+            <parent-of pindex="2" cindex="2">partialreg:Andthree3</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire19</parent-of>
+         </wire>
+         <wire id="partialreg:Wire19" direction="right">
+            <coords x="358" y="234"/>
+            <parent-of pindex="2" cindex="2">partialreg:Andthree2</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire20</parent-of>
+         </wire>
+         <wire id="partialreg:Wire20" direction="right">
+            <coords x="373" y="151"/>
+            <parent-of pindex="2" cindex="2">partialreg:Andthree1</parent-of>
+         </wire>
+         <wire id="partialreg:Wire21" direction="right">
+            <coords x="309" y="131"/>
+            <parent-of pindex="2" cindex="0">partialreg:Andthree1</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire22</parent-of>
+         </wire>
+         <wire id="partialreg:Wire22" direction="right">
+            <coords x="324" y="214"/>
+            <parent-of pindex="2" cindex="0">partialreg:Andthree2</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire23</parent-of>
+         </wire>
+         <wire id="partialreg:Wire23" direction="right">
+            <coords x="339" y="316"/>
+            <parent-of pindex="2" cindex="0">partialreg:Andthree3</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire24</parent-of>
+         </wire>
+         <wire id="partialreg:Wire24" direction="right">
+            <coords x="354" y="418"/>
+            <parent-of pindex="2" cindex="0">partialreg:Andthree4</parent-of>
+         </wire>
+         <wire id="partialreg:Wire25" direction="right">
+            <coords x="225" y="301"/>
+            <parent-of pindex="2" cindex="0">partialreg:Wire26</parent-of>
+         </wire>
+         <wire id="partialreg:Wire26" direction="right">
+            <coords x="254" y="141"/>
+            <parent-of pindex="2" cindex="1">partialreg:Andthree1</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire27</parent-of>
+         </wire>
+         <wire id="partialreg:Wire27" direction="right">
+            <coords x="269" y="187"/>
+            <parent-of pindex="2" cindex="0">partialreg:And1</parent-of>
+         </wire>
+         <wire id="partialreg:Wire28" direction="right">
+            <coords x="234" y="313"/>
+            <parent-of pindex="2" cindex="0">partialreg:Wire29</parent-of>
+         </wire>
+         <wire id="partialreg:Wire29" direction="right">
+            <coords x="263" y="224"/>
+            <parent-of pindex="2" cindex="1">partialreg:Andthree2</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire30</parent-of>
+         </wire>
+         <wire id="partialreg:Wire30" direction="right">
+            <coords x="278" y="265"/>
+            <parent-of pindex="2" cindex="0">partialreg:And2</parent-of>
+         </wire>
+         <wire id="partialreg:Wire31" direction="right">
+            <coords x="259" y="325"/>
+            <parent-of pindex="2" cindex="1">partialreg:Andthree3</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire32</parent-of>
+         </wire>
+         <wire id="partialreg:Wire32" direction="right">
+            <coords x="274" y="295"/>
+            <parent-of pindex="2" cindex="0">partialreg:And3</parent-of>
+         </wire>
+         <wire id="partialreg:Wire33" direction="right">
+            <coords x="250" y="338"/>
+         </wire>
+         <wire id="partialreg:Wire34" direction="right">
+            <coords x="279" y="428"/>
+            <parent-of pindex="2" cindex="1">partialreg:Andthree4</parent-of>
+            <parent-of pindex="0" cindex="2">partialreg:Wire33</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire35</parent-of>
+         </wire>
+         <wire id="partialreg:Wire35" direction="right">
+            <coords x="294" y="374"/>
+            <parent-of pindex="2" cindex="0">partialreg:And4</parent-of>
+         </wire>
+         <and id="partialreg:And1">
+            <coords x="543" y="178"/>
+            <parent-of pindex="2" cindex="5">partialreg:4bit1</parent-of>
+         </and>
+         <and id="partialreg:And2">
+            <coords x="530" y="229"/>
+            <parent-of pindex="2" cindex="5">partialreg:4bit3</parent-of>
+         </and>
+         <and id="partialreg:And3">
+            <coords x="533" y="287"/>
+            <parent-of pindex="2" cindex="5">partialreg:4bit4</parent-of>
+         </and>
+         <and id="partialreg:And4">
+            <coords x="539" y="372"/>
+            <parent-of pindex="2" cindex="5">partialreg:4bit5</parent-of>
+         </and>
+         <wire id="partialreg:Wire36" direction="right">
+            <coords x="437" y="535"/>
+            <parent-of pindex="2" cindex="0">partialreg:Wire37</parent-of>
+         </wire>
+         <wire id="partialreg:Wire37" direction="right">
+            <coords x="466" y="393"/>
+            <parent-of pindex="2" cindex="1">partialreg:And4</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire38</parent-of>
+         </wire>
+         <wire id="partialreg:Wire38" direction="right">
+            <coords x="481" y="308"/>
+            <parent-of pindex="2" cindex="1">partialreg:And3</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire39</parent-of>
+         </wire>
+         <wire id="partialreg:Wire39" direction="right">
+            <coords x="496" y="250"/>
+            <parent-of pindex="2" cindex="1">partialreg:And2</parent-of>
+            <parent-of pindex="1" cindex="0">partialreg:Wire40</parent-of>
+         </wire>
+         <wire id="partialreg:Wire40" direction="right">
+            <coords x="511" y="199"/>
+            <parent-of pindex="2" cindex="1">partialreg:And1</parent-of>
+         </wire>
+         <bulb id="partialreg:Bulb9" number="9" label="o00">
+            <coords x="1127" y="0"/>
+         </bulb>
+         <bulb id="partialreg:Bulb10" number="10" label="o01">
+            <coords x="1129" y="24"/>
+         </bulb>
+         <bulb id="partialreg:Bulb11" number="11" label="o02">
+            <coords x="1135" y="76"/>
+         </bulb>
+         <bulb id="partialreg:Bulb12" number="12" label="o03">
+            <coords x="1134" y="125"/>
+         </bulb>
+         <bulb id="partialreg:Bulb13" number="13" label="o10">
+            <coords x="1260" y="131"/>
+         </bulb>
+         <bulb id="partialreg:Bulb14" number="14" label="o11">
+            <coords x="1262" y="170"/>
+         </bulb>
+         <bulb id="partialreg:Bulb15" number="15" label="o12">
+            <coords x="1259" y="198"/>
+         </bulb>
+         <bulb id="partialreg:Bulb16" number="16" label="o13">
+            <coords x="1254" y="238"/>
+         </bulb>
+         <bulb id="partialreg:Bulb17" number="17" label="o20">
+            <coords x="906" y="216"/>
+         </bulb>
+         <bulb id="partialreg:Bulb18" number="18" label="021">
+            <coords x="911" y="241"/>
+         </bulb>
+         <bulb id="partialreg:Bulb19" number="19" label="o22">
+            <coords x="900" y="273"/>
+         </bulb>
+         <bulb id="partialreg:Bulb20" number="20" label="o23">
+            <coords x="901" y="305"/>
+         </bulb>
+         <bulb id="partialreg:Bulb21" number="21" label="o30">
+            <coords x="1182" y="333"/>
+         </bulb>
+         <bulb id="partialreg:Bulb22" number="22" label="o31">
+            <coords x="1180" y="364"/>
+         </bulb>
+         <bulb id="partialreg:Bulb23" number="23" label="o32">
+            <coords x="1185" y="415"/>
+         </bulb>
+         <bulb id="partialreg:Bulb24" number="24" label="o33">
+            <coords x="1183" y="452"/>
+         </bulb>
+      </circuit>
+      <circuit name="outputselector">
+         <and id="outputselector:And1">
+            <coords x="264" y="64"/>
+            <parent-of pindex="2" cindex="0">outputselector:Bulb5</parent-of>
+         </and>
+         <and id="outputselector:And2">
+            <coords x="288" y="108"/>
+            <parent-of pindex="2" cindex="0">outputselector:Bulb6</parent-of>
+         </and>
+         <and id="outputselector:And3">
+            <coords x="362" y="158"/>
+            <parent-of pindex="2" cindex="0">outputselector:Bulb7</parent-of>
+         </and>
+         <and id="outputselector:And4">
+            <coords x="271" y="191"/>
+            <parent-of pindex="2" cindex="0">outputselector:Bulb8</parent-of>
+         </and>
+         <wire id="outputselector:Wire6" direction="right">
+            <coords x="170" y="72"/>
+            <parent-of pindex="2" cindex="0">outputselector:And1</parent-of>
+            <parent-of pindex="1" cindex="0">outputselector:Wire7</parent-of>
+         </wire>
+         <wire id="outputselector:Wire7" direction="right">
+            <coords x="203" y="119"/>
+            <parent-of pindex="1" cindex="0">outputselector:Wire9</parent-of>
+            <parent-of pindex="2" cindex="0">outputselector:And2</parent-of>
+         </wire>
+         <wire id="outputselector:Wire8" direction="right">
+            <coords x="228" y="199"/>
+            <parent-of pindex="2" cindex="0">outputselector:And4</parent-of>
+         </wire>
+         <wire id="outputselector:Wire9" direction="right">
+            <coords x="216" y="165"/>
+            <parent-of pindex="2" cindex="0">outputselector:And3</parent-of>
+            <parent-of pindex="1" cindex="0">outputselector:Wire8</parent-of>
+         </wire>
+         <switch id="outputselector:Switch0" number="0" label="Lin">
+            <coords x="10" y="18"/>
+            <parent-of pindex="0" cindex="0">outputselector:Wire6</parent-of>
+         </switch>
+         <switch id="outputselector:Switch1" number="1" label="i0">
+            <coords x="18" y="55"/>
+            <parent-of pindex="0" cindex="1">outputselector:And1</parent-of>
+         </switch>
+         <switch id="outputselector:Switch2" number="2" label="i1">
+            <coords x="41" y="111"/>
+            <parent-of pindex="0" cindex="1">outputselector:And2</parent-of>
+         </switch>
+         <switch id="outputselector:Switch3" number="3" label="i2">
+            <coords x="41" y="161"/>
+            <parent-of pindex="0" cindex="1">outputselector:And3</parent-of>
+         </switch>
+         <switch id="outputselector:Switch4" number="4" label="i3">
+            <coords x="49" y="205"/>
+            <parent-of pindex="0" cindex="1">outputselector:And4</parent-of>
+         </switch>
+         <bulb id="outputselector:Bulb5" number="5">
+            <coords x="450" y="22"/>
+         </bulb>
+         <bulb id="outputselector:Bulb6" number="6">
+            <coords x="461" y="68"/>
+         </bulb>
+         <bulb id="outputselector:Bulb7" number="7">
+            <coords x="459" y="128"/>
+         </bulb>
+         <bulb id="outputselector:Bulb8" number="8">
+            <coords x="443" y="184"/>
+         </bulb>
+      </circuit>
+      <circuit name="4xor">
+         <switch id="4xor:Switch0" number="0" label="i0">
+            <coords x="10" y="18"/>
+            <parent-of pindex="0" cindex="0">4xor:Xor3</parent-of>
+         </switch>
+         <switch id="4xor:Switch1" number="1" label="i1">
+            <coords x="10" y="61"/>
+            <parent-of pindex="0" cindex="1">4xor:Xor3</parent-of>
+         </switch>
+         <switch id="4xor:Switch2" number="2" label="i2">
+            <coords x="12" y="125"/>
+            <parent-of pindex="0" cindex="0">4xor:Xor4</parent-of>
+         </switch>
+         <switch id="4xor:Switch3" number="3" label="i3">
+            <coords x="14" y="174"/>
+            <parent-of pindex="0" cindex="1">4xor:Xor4</parent-of>
+         </switch>
+         <xor id="4xor:Xor3">
+            <coords x="109" y="38"/>
+            <parent-of pindex="2" cindex="0">4xor:Xor5</parent-of>
+         </xor>
+         <xor id="4xor:Xor4">
+            <coords x="128" y="146"/>
+            <parent-of pindex="2" cindex="1">4xor:Xor5</parent-of>
+         </xor>
+         <xor id="4xor:Xor5">
+            <coords x="375" y="89"/>
+            <parent-of pindex="2" cindex="0">4xor:Bulb4</parent-of>
+         </xor>
+         <bulb id="4xor:Bulb4" number="4" label="o0">
+            <coords x="470" y="82"/>
+         </bulb>
+      </circuit>
+      <abscircuit id="fullreg:lineselector1" base="lineselector">
+         <coords x="343" y="104"/>
+         <parent-of pindex="2" cindex="0">fullreg:outputselector4</parent-of>
+         <parent-of pindex="3" cindex="0">fullreg:outputselector7</parent-of>
+         <parent-of pindex="4" cindex="0">fullreg:outputselector5</parent-of>
+         <parent-of pindex="5" cindex="0">fullreg:outputselector6</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:partialreg2" base="partialreg">
+         <coords x="291" y="230"/>
+         <parent-of pindex="9" cindex="0">fullreg:Wire10</parent-of>
+         <parent-of pindex="10" cindex="0">fullreg:Wire11</parent-of>
+         <parent-of pindex="11" cindex="0">fullreg:Wire12</parent-of>
+         <parent-of pindex="12" cindex="0">fullreg:Wire13</parent-of>
+         <parent-of pindex="13" cindex="0">fullreg:Wire14</parent-of>
+         <parent-of pindex="14" cindex="0">fullreg:Wire15</parent-of>
+         <parent-of pindex="15" cindex="0">fullreg:Wire16</parent-of>
+         <parent-of pindex="16" cindex="0">fullreg:Wire17</parent-of>
+         <parent-of pindex="17" cindex="0">fullreg:Wire18</parent-of>
+         <parent-of pindex="18" cindex="0">fullreg:Wire19</parent-of>
+         <parent-of pindex="19" cindex="0">fullreg:Wire24</parent-of>
+         <parent-of pindex="20" cindex="0">fullreg:Wire25</parent-of>
+         <parent-of pindex="21" cindex="0">fullreg:Wire23</parent-of>
+         <parent-of pindex="22" cindex="0">fullreg:Wire21</parent-of>
+         <parent-of pindex="23" cindex="0">fullreg:Wire20</parent-of>
+         <parent-of pindex="24" cindex="0">fullreg:Wire22</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:lineselector3" base="lineselector">
+         <coords x="319" y="485"/>
+         <parent-of pindex="2" cindex="0">fullreg:outputselector10</parent-of>
+         <parent-of pindex="3" cindex="0">fullreg:outputselector8</parent-of>
+         <parent-of pindex="4" cindex="0">fullreg:outputselector9</parent-of>
+         <parent-of pindex="5" cindex="0">fullreg:outputselector11</parent-of>
+      </abscircuit>
+      <switch id="fullreg:Switch0" number="0" label="d0">
+         <coords x="11" y="217"/>
+         <parent-of pindex="0" cindex="2">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch1" number="1" label="d1">
+         <coords x="10" y="255"/>
+         <parent-of pindex="0" cindex="3">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch2" number="2" label="d2">
+         <coords x="14" y="301"/>
+         <parent-of pindex="0" cindex="4">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch3" number="3" label="d3">
+         <coords x="11" y="341"/>
+         <parent-of pindex="0" cindex="5">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch4" number="4" label="r0">
+         <coords x="8" y="129"/>
+         <parent-of pindex="0" cindex="0">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch5" number="5" label="r1">
+         <coords x="9" y="174"/>
+         <parent-of pindex="0" cindex="1">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch6" number="6" label="WR">
+         <coords x="11" y="383"/>
+         <parent-of pindex="0" cindex="6">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch7" number="7" label="Cl">
+         <coords x="11" y="422"/>
+         <parent-of pindex="0" cindex="7">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch8" number="8" label="&gt;">
+         <coords x="11" y="464"/>
+         <parent-of pindex="0" cindex="8">fullreg:partialreg2</parent-of>
+      </switch>
+      <switch id="fullreg:Switch9" number="9" label="s0">
+         <coords x="250" y="86"/>
+         <parent-of pindex="0" cindex="0">fullreg:lineselector1</parent-of>
+      </switch>
+      <switch id="fullreg:Switch10" number="10" label="s1">
+         <coords x="251" y="127"/>
+         <parent-of pindex="0" cindex="1">fullreg:lineselector1</parent-of>
+      </switch>
+      <switch id="fullreg:Switch11" number="11" label="t0">
+         <coords x="226" y="470"/>
+         <parent-of pindex="0" cindex="0">fullreg:lineselector3</parent-of>
+      </switch>
+      <switch id="fullreg:Switch12" number="12" label="t1">
+         <coords x="225" y="508"/>
+         <parent-of pindex="0" cindex="1">fullreg:lineselector3</parent-of>
+      </switch>
+      <abscircuit id="fullreg:outputselector4" base="outputselector">
+         <coords x="629" y="4"/>
+         <parent-of pindex="5" cindex="0">fullreg:4xor12</parent-of>
+         <parent-of pindex="6" cindex="0">fullreg:4xor13</parent-of>
+         <parent-of pindex="7" cindex="0">fullreg:4xor14</parent-of>
+         <parent-of pindex="8" cindex="0">fullreg:4xor15</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector5" base="outputselector">
+         <coords x="629" y="168"/>
+         <parent-of pindex="5" cindex="2">fullreg:4xor12</parent-of>
+         <parent-of pindex="6" cindex="2">fullreg:4xor13</parent-of>
+         <parent-of pindex="7" cindex="2">fullreg:4xor14</parent-of>
+         <parent-of pindex="8" cindex="2">fullreg:4xor15</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector6" base="outputselector">
+         <coords x="630" y="252"/>
+         <parent-of pindex="5" cindex="3">fullreg:4xor12</parent-of>
+         <parent-of pindex="6" cindex="3">fullreg:4xor13</parent-of>
+         <parent-of pindex="7" cindex="3">fullreg:4xor14</parent-of>
+         <parent-of pindex="8" cindex="3">fullreg:4xor15</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector7" base="outputselector">
+         <coords x="631" y="84"/>
+         <parent-of pindex="5" cindex="1">fullreg:4xor12</parent-of>
+         <parent-of pindex="6" cindex="1">fullreg:4xor13</parent-of>
+         <parent-of pindex="7" cindex="1">fullreg:4xor14</parent-of>
+         <parent-of pindex="8" cindex="1">fullreg:4xor15</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector8" base="outputselector">
+         <coords x="632" y="427"/>
+         <parent-of pindex="5" cindex="1">fullreg:4xor16</parent-of>
+         <parent-of pindex="6" cindex="1">fullreg:4xor17</parent-of>
+         <parent-of pindex="7" cindex="1">fullreg:4xor18</parent-of>
+         <parent-of pindex="8" cindex="1">fullreg:4xor19</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector9" base="outputselector">
+         <coords x="632" y="509"/>
+         <parent-of pindex="5" cindex="2">fullreg:4xor16</parent-of>
+         <parent-of pindex="6" cindex="2">fullreg:4xor17</parent-of>
+         <parent-of pindex="7" cindex="2">fullreg:4xor18</parent-of>
+         <parent-of pindex="8" cindex="2">fullreg:4xor19</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector10" base="outputselector">
+         <coords x="633" y="344"/>
+         <parent-of pindex="5" cindex="0">fullreg:4xor16</parent-of>
+         <parent-of pindex="6" cindex="0">fullreg:4xor17</parent-of>
+         <parent-of pindex="7" cindex="0">fullreg:4xor18</parent-of>
+         <parent-of pindex="8" cindex="0">fullreg:4xor19</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:outputselector11" base="outputselector">
+         <coords x="633" y="589"/>
+         <parent-of pindex="5" cindex="3">fullreg:4xor16</parent-of>
+         <parent-of pindex="6" cindex="3">fullreg:4xor17</parent-of>
+         <parent-of pindex="7" cindex="3">fullreg:4xor18</parent-of>
+         <parent-of pindex="8" cindex="3">fullreg:4xor19</parent-of>
+      </abscircuit>
+      <wire id="fullreg:Wire10" direction="right">
+         <coords x="414" y="230"/>
+         <parent-of pindex="2" cindex="1">fullreg:outputselector4</parent-of>
+         <parent-of pindex="1" cindex="1">fullreg:outputselector10</parent-of>
+      </wire>
+      <wire id="fullreg:Wire11" direction="right">
+         <coords x="410" y="242"/>
+         <parent-of pindex="2" cindex="2">fullreg:outputselector4</parent-of>
+         <parent-of pindex="1" cindex="2">fullreg:outputselector10</parent-of>
+      </wire>
+      <wire id="fullreg:Wire12" direction="right">
+         <coords x="410" y="254"/>
+         <parent-of pindex="2" cindex="3">fullreg:outputselector4</parent-of>
+         <parent-of pindex="1" cindex="3">fullreg:outputselector10</parent-of>
+      </wire>
+      <wire id="fullreg:Wire13" direction="right">
+         <coords x="408" y="267"/>
+         <parent-of pindex="2" cindex="4">fullreg:outputselector4</parent-of>
+         <parent-of pindex="1" cindex="4">fullreg:outputselector10</parent-of>
+      </wire>
+      <wire id="fullreg:Wire14" direction="right">
+         <coords x="412" y="279"/>
+         <parent-of pindex="2" cindex="1">fullreg:outputselector7</parent-of>
+         <parent-of pindex="1" cindex="1">fullreg:outputselector8</parent-of>
+      </wire>
+      <wire id="fullreg:Wire15" direction="right">
+         <coords x="412" y="290"/>
+         <parent-of pindex="2" cindex="2">fullreg:outputselector7</parent-of>
+         <parent-of pindex="1" cindex="2">fullreg:outputselector8</parent-of>
+      </wire>
+      <wire id="fullreg:Wire16" direction="right">
+         <coords x="415" y="302"/>
+         <parent-of pindex="2" cindex="3">fullreg:outputselector7</parent-of>
+         <parent-of pindex="1" cindex="3">fullreg:outputselector8</parent-of>
+      </wire>
+      <wire id="fullreg:Wire17" direction="right">
+         <coords x="414" y="315"/>
+         <parent-of pindex="2" cindex="4">fullreg:outputselector7</parent-of>
+         <parent-of pindex="1" cindex="4">fullreg:outputselector8</parent-of>
+      </wire>
+      <wire id="fullreg:Wire18" direction="right">
+         <coords x="414" y="326"/>
+         <parent-of pindex="2" cindex="1">fullreg:outputselector5</parent-of>
+         <parent-of pindex="1" cindex="1">fullreg:outputselector9</parent-of>
+      </wire>
+      <wire id="fullreg:Wire19" direction="right">
+         <coords x="413" y="338"/>
+         <parent-of pindex="2" cindex="2">fullreg:outputselector5</parent-of>
+         <parent-of pindex="1" cindex="2">fullreg:outputselector9</parent-of>
+      </wire>
+      <wire id="fullreg:Wire20" direction="right">
+         <coords x="411" y="398"/>
+         <parent-of pindex="2" cindex="3">fullreg:outputselector6</parent-of>
+         <parent-of pindex="1" cindex="3">fullreg:outputselector11</parent-of>
+      </wire>
+      <wire id="fullreg:Wire21" direction="right">
+         <coords x="410" y="388"/>
+         <parent-of pindex="2" cindex="2">fullreg:outputselector6</parent-of>
+         <parent-of pindex="1" cindex="2">fullreg:outputselector11</parent-of>
+      </wire>
+      <wire id="fullreg:Wire22" direction="right">
+         <coords x="414" y="410"/>
+         <parent-of pindex="2" cindex="4">fullreg:outputselector6</parent-of>
+         <parent-of pindex="1" cindex="4">fullreg:outputselector11</parent-of>
+      </wire>
+      <wire id="fullreg:Wire23" direction="right">
+         <coords x="415" y="375"/>
+         <parent-of pindex="2" cindex="1">fullreg:outputselector6</parent-of>
+         <parent-of pindex="1" cindex="1">fullreg:outputselector11</parent-of>
+      </wire>
+      <wire id="fullreg:Wire24" direction="right">
+         <coords x="415" y="350"/>
+         <parent-of pindex="2" cindex="3">fullreg:outputselector5</parent-of>
+         <parent-of pindex="1" cindex="3">fullreg:outputselector9</parent-of>
+      </wire>
+      <wire id="fullreg:Wire25" direction="right">
+         <coords x="416" y="362"/>
+         <parent-of pindex="2" cindex="4">fullreg:outputselector5</parent-of>
+         <parent-of pindex="1" cindex="4">fullreg:outputselector9</parent-of>
+      </wire>
+      <abscircuit id="fullreg:4xor12" base="4xor">
+         <coords x="1018" y="13"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb13</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor13" base="4xor">
+         <coords x="1019" y="79"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb14</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor14" base="4xor">
+         <coords x="1020" y="145"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb15</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor15" base="4xor">
+         <coords x="1021" y="209"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb16</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor16" base="4xor">
+         <coords x="1020" y="373"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb17</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor17" base="4xor">
+         <coords x="1021" y="439"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb18</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor18" base="4xor">
+         <coords x="1022" y="505"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb19</parent-of>
+      </abscircuit>
+      <abscircuit id="fullreg:4xor19" base="4xor">
+         <coords x="1023" y="568"/>
+         <parent-of pindex="4" cindex="0">fullreg:Bulb20</parent-of>
+      </abscircuit>
+      <bulb id="fullreg:Bulb13" number="13" label="a0">
+         <coords x="1256" y="12"/>
+      </bulb>
+      <bulb id="fullreg:Bulb14" number="14" label="a1">
+         <coords x="1256" y="74"/>
+      </bulb>
+      <bulb id="fullreg:Bulb15" number="15" label="a2">
+         <coords x="1250" y="126"/>
+      </bulb>
+      <bulb id="fullreg:Bulb16" number="16" label="a3">
+         <coords x="1251" y="179"/>
+      </bulb>
+      <bulb id="fullreg:Bulb17" number="17" label="b0">
+         <coords x="1252" y="336"/>
+      </bulb>
+      <bulb id="fullreg:Bulb18" number="18" label="b1">
+         <coords x="1249" y="410"/>
+      </bulb>
+      <bulb id="fullreg:Bulb19" number="19" label="b2">
+         <coords x="1247" y="473"/>
+      </bulb>
+      <bulb id="fullreg:Bulb20" number="20" label="b3">
+         <coords x="1245" y="550"/>
+      </bulb>
+   </circuit>
+   <abscircuit id="regfile:fullreg1" base="fullreg">
+      <coords x="462" y="263"/>
+      <parent-of pindex="17" cindex="0">regfile:Bulb17</parent-of>
+      <parent-of pindex="18" cindex="0">regfile:Bulb18</parent-of>
+      <parent-of pindex="19" cindex="0">regfile:Bulb19</parent-of>
+      <parent-of pindex="20" cindex="0">regfile:Bulb20</parent-of>
+   </abscircuit>
+   <switch id="regfile:Switch0" number="0" label="d0">
+      <coords x="271" y="39"/>
+      <parent-of pindex="0" cindex="0">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch1" number="1" label="d1">
+      <coords x="274" y="75"/>
+      <parent-of pindex="0" cindex="1">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch2" number="2" label="d2">
+      <coords x="276" y="112"/>
+      <parent-of pindex="0" cindex="2">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch3" number="3" label="d3">
+      <coords x="275" y="152"/>
+      <parent-of pindex="0" cindex="3">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch4" number="4" label="r0">
+      <coords x="199" y="190"/>
+      <parent-of pindex="0" cindex="4">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch5" number="5" label="r1">
+      <coords x="200" y="226"/>
+      <parent-of pindex="0" cindex="5">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch6" number="6" label="WR">
+      <coords x="137" y="266"/>
+      <parent-of pindex="0" cindex="6">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch7" number="7" label="Cl">
+      <coords x="138" y="316"/>
+      <parent-of pindex="0" cindex="7">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch8" number="8" label="&gt;">
+      <coords x="140" y="371"/>
+      <parent-of pindex="0" cindex="8">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch9" number="9" label="s0">
+      <coords x="193" y="414"/>
+      <parent-of pindex="0" cindex="9">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch10" number="10" label="s1">
+      <coords x="193" y="453"/>
+      <parent-of pindex="0" cindex="10">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch11" number="11" label="t0">
+      <coords x="233" y="488"/>
+      <parent-of pindex="0" cindex="11">regfile:fullreg1</parent-of>
+   </switch>
+   <switch id="regfile:Switch12" number="12" label="t1">
+      <coords x="232" y="525"/>
+      <parent-of pindex="0" cindex="12">regfile:fullreg1</parent-of>
+   </switch>
+   <bulb id="regfile:Bulb13" number="13" label="a0">
+      <coords x="709" y="118"/>
+      <parent-of pindex="0" cindex="13">regfile:fullreg1</parent-of>
+   </bulb>
+   <bulb id="regfile:Bulb14" number="14" label="a1">
+      <coords x="708" y="155"/>
+      <parent-of pindex="0" cindex="14">regfile:fullreg1</parent-of>
+   </bulb>
+   <bulb id="regfile:Bulb15" number="15" label="a2">
+      <coords x="710" y="194"/>
+      <parent-of pindex="0" cindex="15">regfile:fullreg1</parent-of>
+   </bulb>
+   <bulb id="regfile:Bulb16" number="16" label="a3">
+      <coords x="710" y="232"/>
+      <parent-of pindex="0" cindex="16">regfile:fullreg1</parent-of>
+   </bulb>
+   <bulb id="regfile:Bulb17" number="17" label="b0">
+      <coords x="703" y="314"/>
+   </bulb>
+   <bulb id="regfile:Bulb18" number="18" label="b1">
+      <coords x="704" y="350"/>
+   </bulb>
+   <bulb id="regfile:Bulb19" number="19" label="b2">
+      <coords x="704" y="385"/>
+   </bulb>
+   <bulb id="regfile:Bulb20" number="20" label="b3">
+      <coords x="705" y="422"/>
+   </bulb>
+   <label id="regfile:Label1" size="12" style="0" color="0">
+      <coords x="708" y="98"/>
+      <text>Read A</text>
+   </label>
+   <label id="regfile:Label2" size="12" style="0" color="0">
+      <coords x="709" y="300"/>
+      <text>Read B</text>
+   </label>
+   <label id="regfile:Label3" size="12" style="0" color="0">
+      <coords x="223" y="45"/>
+      <text>Input</text>
+   </label>
+   <label id="regfile:Label4" size="12" style="0" color="0">
+      <coords x="100" y="194"/>
+      <text>Register Select</text>
+   </label>
+   <label id="regfile:Label5" size="12" style="0" color="0">
+      <coords x="83" y="272"/>
+      <text>Write</text>
+   </label>
+   <label id="regfile:Label6" size="12" style="0" color="0">
+      <coords x="83" y="322"/>
+      <text>Clear</text>
+   </label>
+   <label id="regfile:Label7" size="12" style="0" color="0">
+      <coords x="88" y="377"/>
+      <text>Clock</text>
+   </label>
+   <label id="regfile:Label8" size="12" style="0" color="0">
+      <coords x="101" y="441"/>
+      <text>Read A Select</text>
+   </label>
+   <label id="regfile:Label9" size="12" style="0" color="0">
+      <coords x="144" y="514"/>
+      <text>Read B Select</text>
+   </label>
+</circuit>

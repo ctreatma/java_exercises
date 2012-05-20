@@ -1,0 +1,7 @@
+Charles Treatman
+To Do Manager
+CIT597
+
+Known issue:
+
+According to all references I can find online, including examples on Java's own site (http://java.sun.com/docs/books/tutorial/uiswing/components/table.html), the DefaultTableModel is supposed to render Boolean columns as checkboxes in the JTable component.  However, my experience with both my homework submission & the examples given on the Java site is that Booleans are displayed as Strings.

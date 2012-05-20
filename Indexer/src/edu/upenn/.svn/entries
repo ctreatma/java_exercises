@@ -1,0 +1,31 @@
+10
+
+dir
+41
+svn+ssh://ctreatma@eniac.seas.upenn.edu/home1/c/ctreatma/cis555/trunk/src/edu/upenn
+svn+ssh://ctreatma@eniac.seas.upenn.edu/home1/c/ctreatma/cis555
+
+
+
+2010-04-04T23:43:31.373817Z
+41
+ctreatma
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+453d79ce-219c-11df-a510-4325fb25c207
+
+cis555
+dir
+
