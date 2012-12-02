@@ -1,8 +1,0 @@
-CIS 700 Project 5
-Scala Downloader
-
-The main class is DownloaderMain.  I left some debugging code in so there's
-more feedback as to what the Downloader is doing.
-
-To quit the downloader, just type "q" or "Q" at any time (you don't have
-to wait for the downloader to finish).
